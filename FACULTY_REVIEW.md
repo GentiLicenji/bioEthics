@@ -7,7 +7,7 @@
 
 ## Overall verdict
 
-The package (study guide + two practice tests + answer keys + organized source folders) is **substantively accurate, well-scoped to the announced syllabus, and at the right cognitive level for a 3rd-year course**. Only **minor factual corrections** were needed in the study guide, and the practice tests are in an appropriate format. The structure (folders 01–07) is clean and pedagogically sound.
+The package (study guide + two practice tests + answer keys + organized source folders) is **substantively accurate, well-scoped to the announced syllabus, and at the right cognitive level for a 2nd-year course**. Only **minor factual corrections** were needed in the study guide, and the practice tests are in an appropriate format. The structure (folders 01–07) is clean and pedagogically sound.
 
 **Grade for the materials as a whole:** A− → A after the corrections below were applied.
 
@@ -36,7 +36,7 @@ The package (study guide + two practice tests + answer keys + organized source f
 ### `PRACTICE_TEST_1.md` (60 pts, 60 min)
 - **Format:** 15× MCQ (1 pt) + 5× short answer (5 pts) + 1× essay (20 pts). Standard mid-term format. ✅
 - **Coverage:** all six tested topics are touched (utilitarianism Q1/10/15; Kant Q2/9/16; Aristotle/telos Q3/14/18; descriptive ethics Q8/13/19; animal ethics + 3R Q4/5/6/12/17; Open Science / FAIR / CARE Q7/11/20). ✅
-- **Calibration:** difficulty is appropriate for 3rd-year. Q15 (NOT-question) is the only mildly tricky item — fair.
+- **Calibration:** difficulty is appropriate. Q15 (NOT-question) is the only mildly tricky item — fair.
 - **Verdict: hits the mark.**
 
 ### `PRACTICE_TEST_2.md` (70 pts, 75 min, case-based)
@@ -52,7 +52,7 @@ The package (study guide + two practice tests + answer keys + organized source f
 
 ## Are the guides "concise and perfect"?
 
-- **Concise:** Yes for a 3rd-year audience; the guide is ~340 lines covering 4 large topics — that is the lower bound of acceptable depth, not bloat.
+- **Concise:** Yes for the audience; the guide is ~340 lines covering 4 large topics — that is the lower bound of acceptable depth, not bloat.
 - **Perfect:** Now that the four factual fixes above are in, **yes — at the level expected of an undergraduate revision document.** A graduate-level guide would add: Scanlon's contractualism, Beauchamp & Childress' four principles, the Belmont Report, and a deeper treatment of the is–ought problem. These are **out of scope** for PBIO 2026 as announced and have intentionally not been added.
 
 ## Materials that are "out of topic"

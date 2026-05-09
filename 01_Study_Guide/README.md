@@ -1,6 +1,6 @@
 # Bioethics Exam Study Guide — PBIO 2026
 
-A detailed study guide for 3rd-year students preparing for the Bioethics test. Built from the professor's summary slides (`PBIO 2026 - souhrn prezentace.pptx.pdf`), Sandel's philosophy chapters (Utilitarianism, Kant, Aristotle), the Chudárková paper on descriptive ethics, the NanoEt and Soucitně articles on animal testing, and the Open Science papers (Ross-Hellauer; LSE Impact on FAIR).
+A detailed study guide for students preparing for the Bioethics test. Built from the professor's summary slides (`PBIO 2026 - souhrn prezentace.pptx.pdf`), Sandel's philosophy chapters (Utilitarianism, Kant, Aristotle), the Chudárková paper on descriptive ethics, the NanoEt and Soucitně articles on animal testing, and the Open Science papers (Ross-Hellauer; LSE Impact on FAIR).
 
 > **Reviewed and corrected** by a bioethics faculty pass: minor factual fixes (Haidt's "emotional dog" metaphor; Mill's harm principle source; Moral Foundations count); the Friedman & Hendry *Value Sensitive Design* book is **off-syllabus** for this exam and listed as optional only.
 
