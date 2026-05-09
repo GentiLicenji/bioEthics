@@ -1,0 +1,1173 @@
+
+<!doctype html>
+<html lang="cs-cz" dir="ltr">
+    <head>
+<script src="/media/plg_n3tcookieconsent/js/n3tconsentmanager.min.js?a6d4880993724df84ffc51d64830e916"></script>
+<script>	 window.dataLayer = window.dataLayer || [];  
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied',
+    'wait_for_update': 1000    
+  });			  window.addEventListener('n3t.cookieconsent.accept', function(event) {
+		gtag('consent', 'update', {
+    'ad_storage': n3tConsentManager.allowedCategory('marketing') ? 'granted' : 'denied',
+    'analytics_storage': n3tConsentManager.allowedCategory('analytics') ? 'granted' : 'denied',
+  });
+if(n3tConsentManager.allowedCategory('analytics')){
+window.clarity('consent');
+}  });
+		  window.addEventListener('n3t.cookieconsent.change', function(event) {
+		gtag('consent', 'update', {
+    'ad_storage': n3tConsentManager.allowedCategory('marketing') ? 'granted' : 'denied',
+    'analytics_storage': n3tConsentManager.allowedCategory('analytics') ? 'granted' : 'denied',
+  });
+
+if(n3tConsentManager.allowedCategory('analytics')){
+window.clarity('consent');
+} else {
+window.clarity('consent', false)
+}  });
+	  initN3tConsentManager({
+	      cookie_name: "n3t_cc",
+	      	      cookies: [{"name":"n3t_cc","is_regex":false,"category":"functional","required":true},{"name":"_gid","is_regex":false,"category":"analytics","required":false},{"name":"_ga","is_regex":false,"category":"analytics","required":false},{"name":"^_ga_","is_regex":true,"category":"analytics","required":false},{"name":"_fbp","is_regex":false,"category":"marketing","required":false},{"name":"_fbc","is_regex":false,"category":"marketing","required":false},{"name":"_gcl_au","is_regex":false,"category":"marketing","required":false},{"name":"ecsession8-0ff8f206695a872edfb6fade7b6458ba","is_regex":false,"category":"unknown","required":false},{"name":"cpnb_cookiesSettings","is_regex":false,"category":"unknown","required":false},{"name":"G_ENABLED_IDPS","is_regex":false,"category":"unknown","required":false},{"name":"cookiesDirective","is_regex":false,"category":"unknown","required":false},{"name":"ecvisits8-0ff8f206695a872edfb6fade7b6458ba","is_regex":false,"category":"unknown","required":false}],
+    options: {"cookie_expiration":395,"use_rfc_cookie":true,"current_lang":"default","autoclear_cookies":true,"hide_from_bots":true,"gui_options":{"consent_modal":{"layout":"cloud","position":"bottom center","transition":"zoom","swap_buttons":false},"settings_modal":{"layout":"bar","position":"left","transition":"slide"}},"languages":{"default":{"consent_modal":{"title":"M\u00e1me r\u00e1di cookies <span class=\"font-weight-normal\">\ud83c\udf6a<\/span>","description":"Pou\u017e\u00edv\u00e1me soubory cookies pro vylep\u0161ov\u00e1n\u00ed na\u0161eho webu. D\u00edky nim m\u016f\u017eeme m\u011b\u0159it n\u00e1v\u0161t\u011bvnost, p\u0159izp\u016fsobovat obsah a optimalizovat propaga\u010dn\u00ed kampan\u011b. Kliknut\u00edm na tla\u010d\u00edtko \u201eP\u0159ijmout v\u0161e\u201c s pou\u017eit\u00edm cookies souhlas\u00edte. Pokud s pou\u017eit\u00edm cookies nesouhlas\u00edte, klikn\u011bte <a href=\"#\" data-cc=\"accept-necessary\">zde<\/a>. <\/br><\/br>Je\u0161t\u011b podrobn\u011bj\u0161\u00ed informace o tom, jak cookies zpracov\u00e1v\u00e1me, naleznete v na\u0161ich <a aria-label='Podm\u00ednky ochrany osobn\u00edch \u00fadaj\u016f' class='cc-link' href='\/zasady-ochrany-osobnich-udaju'>Podm\u00ednk\u00e1ch ochrany osobn\u00edch \u00fadaj\u016f<\/a>.","revision_message":"<br\/><br\/>Omlouv\u00e1me se, \u017ee v\u00e1s znovu obt\u011b\u017eujeme, ale na\u0161e 'Podm\u00ednky ochrany osobn\u00edch \u00fadaj\u016f' se zm\u011bnily.","primary_btn":{"text":"P\u0159ijmout v\u0161e","role":"accept_all"},"secondary_btn":{"text":"Nastaven\u00ed","role":"settings"}},"settings_modal":{"title":"Nastaven\u00ed soukrom\u00ed","save_settings_btn":"Ulo\u017eit nastaven\u00ed","accept_all_btn":"P\u0159ijmout v\u0161e","close_btn_label":"Zav\u0159\u00edt","reject_all_btn":"Odm\u00edtnout v\u0161e","cookie_table_headers":[{"name":"N\u00e1zev"},{"description":"Popis"},{"provider":"Poskytovatel"},{"expiration":"Expirace"}],"blocks":[{"title":"Pou\u017eit\u00ed soubor\u016f cookie","description":"Pou\u017e\u00edv\u00e1me soubory cookie k zaji\u0161t\u011bn\u00ed z\u00e1kladn\u00edch funkc\u00ed webu, informac\u00ed t\u00fdkaj\u00edc\u00edch se v\u00e1s, va\u0161ich preferenc\u00ed a za\u0159\u00edzen\u00ed, kter\u00e9 pou\u017e\u00edv\u00e1te. V\u011bt\u0161inou to slou\u017e\u00ed k vylep\u0161ov\u00e1n\u00ed str\u00e1nky, aby fungovala podle va\u0161ich o\u010dek\u00e1v\u00e1n\u00ed. Informace v\u00e1s zpravidla neidentifikuj\u00ed jako jednotlivce, ale celkov\u011b mohou pomoci p\u0159izp\u016fsobovat prost\u0159ed\u00ed va\u0161im pot\u0159eb\u00e1m. Respektujeme va\u0161e pr\u00e1vo na soukrom\u00ed, a proto se m\u016f\u017eete kdykoli rozhodnout, \u017ee n\u011bkter\u00e9 soubory cookie nebudete akceptovat."},{"title":"Funk\u010dn\u00ed cookies","description":"Tyto soubory cookie n\u00e1m umo\u017e\u0148uj\u00ed zapamatovat si va\u0161e z\u00e1kladn\u00ed volby a vylep\u0161uj\u00ed u\u017eivatelsk\u00fd komfort. Jsou nezbytn\u00e9 k tomu, aby web spr\u00e1vn\u011b fungoval, tak\u017ee nen\u00ed mo\u017en\u00e9 je vypnout.","toggle":{"value":"functional","enabled":true,"readonly":true},"cookie_table":[{"name":"n3t_cc","description":"Tento soubor cookie obsahuje informace o souhlasu u\u017eivatel\u016f se soubory cookie.","is_regex":false,"provider":"Soucitn\u011b","expiration":"395 dn\u00ed"}]},{"title":"Analytick\u00e9 cookies","description":"Tyto soubory cookie shroma\u017e\u010fuj\u00ed informace o tom, jak webovou str\u00e1nku pou\u017e\u00edv\u00e1te, kter\u00e9 str\u00e1nky jste nav\u0161t\u00edvili a na kter\u00e9 odkazy jste klikli. V\u0161echna data jsou anonymizov\u00e1na a nelze je pou\u017e\u00edt k va\u0161\u00ed identifikaci.","toggle":{"value":"analytics","enabled":false,"readonly":false},"cookie_table":[{"name":"_gid","description":"ID pou\u017e\u00edvan\u00e9 k identifikaci u\u017eivatel\u016f po dobu 24 hodin od posledn\u00ed aktivity.","is_regex":false,"provider":"Google Analytics","expiration":"24 hodin"},{"name":"_ga","description":"ID pou\u017e\u00edvan\u00e9 k identifikaci u\u017eivatel\u016f.","is_regex":false,"provider":"Google Analytics","expiration":"2 roky"},{"name":"^_ga_","description":"ID pou\u017e\u00edvan\u00e9 k identifikaci u\u017eivatel\u016f.","is_regex":true,"provider":"Google Analytics","expiration":"2 roky"}]},{"title":"Marketingov\u00e9 cookies","description":"Tyto soubory cookie se pou\u017e\u00edvaj\u00ed k tomu, aby pro v\u00e1s byly reklamn\u00ed zpr\u00e1vy relevantn\u011bj\u0161\u00ed. Zabra\u0148uj\u00ed neust\u00e1l\u00e9mu opakov\u00e1n\u00ed stejn\u00e9 reklamy, zaji\u0161\u0165uj\u00ed spr\u00e1vn\u00e9 zobrazen\u00ed reklam inzerent\u016f a v n\u011bkter\u00fdch p\u0159\u00edpadech vyb\u00edraj\u00ed reklamy podle va\u0161ich z\u00e1jm\u016f.","toggle":{"value":"marketing","enabled":false,"readonly":false},"cookie_table":[{"name":"_fbp","description":"Pou\u017e\u00edv\u00e1 spole\u010dnost Facebook k poskytov\u00e1n\u00ed \u0159ady reklamn\u00edch produkt\u016f, nap\u0159\u00edklad nab\u00eddek v re\u00e1ln\u00e9m \u010dase od inzerent\u016f t\u0159et\u00edch stran.","is_regex":false,"provider":"Facebook","expiration":"4 m\u011bs\u00edce"},{"name":"_fbc","description":"Pou\u017e\u00edv\u00e1no Facebookem k poskytov\u00e1n\u00ed \u0159ady reklamn\u00edch produkt\u016f, jako jsou nab\u00eddky v re\u00e1ln\u00e9m \u010dase od inzerent\u016f t\u0159et\u00edch stran","is_regex":false,"provider":"Facebook","expiration":"2 roky"},{"name":"_gcl_au","description":"Pou\u017e\u00edv\u00e1 Google AdSense pro experimentov\u00e1n\u00ed s efektivitou reklamy na webov\u00fdch str\u00e1nk\u00e1ch vyu\u017e\u00edvaj\u00edc\u00edch jejich slu\u017eby.","is_regex":false,"provider":"Google","expiration":"3 m\u011bs\u00edce"}]},{"title":"","description":"Podrobn\u00e9 informace o tom, jak nakl\u00e1d\u00e1me s cookies, naleznete v na\u0161ich <a aria-label='Z\u00e1sady ochrany osobn\u00edch \u00fadaj\u016f' class='cc-link' href='\/zasady-ochrany-osobnich-udaju'>Z\u00e1sad\u00e1ch ochrany osobn\u00edch \u00fadaj\u016f<\/a>."},{"title":"","description":"<div class=\"n3tcc-consent-info\">Datum souhlasu: <strong>{{consent_date}}<\/strong><br\/>ID souhlasu: <strong>{{consent_guid}}<\/strong><\/div>"}]}}}},
+    unknown_cookies: "settings",
+	      show_trigger: true,
+    trigger_text: "Nastaven\u00ed cookies",
+    trigger_icon: "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"0 0 120.23 122.88\">\r\n  <g>\r\n    <path style=\"fill-rule:evenodd;clip-rule:evenodd;\" d=\"M98.18,0c3.3,0,5.98,2.68,5.98,5.98c0,3.3-2.68,5.98-5.98,5.98c-3.3,0-5.98-2.68-5.98-5.98 C92.21,2.68,94.88,0,98.18,0L98.18,0z M99.78,52.08c5.16,7.7,11.69,10.06,20.17,4.85c0.28,2.9,0.35,5.86,0.2,8.86 c-1.67,33.16-29.9,58.69-63.06,57.02C23.94,121.13-1.59,92.9,0.08,59.75C1.74,26.59,30.95,0.78,64.1,2.45 c-2.94,9.2-0.45,17.37,7.03,20.15C64.35,44.38,79.49,58.63,99.78,52.08L99.78,52.08z M30.03,47.79c4.97,0,8.99,4.03,8.99,8.99 s-4.03,8.99-8.99,8.99c-4.97,0-8.99-4.03-8.99-8.99S25.07,47.79,30.03,47.79L30.03,47.79z M58.35,59.25c2.86,0,5.18,2.32,5.18,5.18 c0,2.86-2.32,5.18-5.18,5.18c-2.86,0-5.18-2.32-5.18-5.18C53.16,61.57,55.48,59.25,58.35,59.25L58.35,59.25z M35.87,80.59 c3.49,0,6.32,2.83,6.32,6.32c0,3.49-2.83,6.32-6.32,6.32c-3.49,0-6.32-2.83-6.32-6.32C29.55,83.41,32.38,80.59,35.87,80.59 L35.87,80.59z M49.49,32.23c2.74,0,4.95,2.22,4.95,4.95c0,2.74-2.22,4.95-4.95,4.95c-2.74,0-4.95-2.22-4.95-4.95 C44.54,34.45,46.76,32.23,49.49,32.23L49.49,32.23z M76.39,82.8c4.59,0,8.3,3.72,8.3,8.3c0,4.59-3.72,8.3-8.3,8.3 c-4.59,0-8.3-3.72-8.3-8.3C68.09,86.52,71.81,82.8,76.39,82.8L76.39,82.8z M93.87,23.1c3.08,0,5.58,2.5,5.58,5.58 c0,3.08-2.5,5.58-5.58,5.58s-5.58-2.5-5.58-5.58C88.29,25.6,90.79,23.1,93.87,23.1L93.87,23.1z\"\/>\r\n  <\/g>\r\n<\/svg>",
+    trigger_layout: "icon",
+    trigger_position: "bottom left",
+	  	      log_user_preferences_url: "\/component\/ajax\/?group=system&format=json&plugin=N3tCookieConsentLogConsent",
+	    });
+</script>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-57VJPKR');</script>
+        <!-- End Google Tag Manager -->
+
+        <!--- CANONICAL tag ---->
+                <link rel="canonical" href="https://soucitne.cz/novinky/argumenty-pro-a-proti-pouzivani-zvirat-ve-vyzkumu">
+
+        
+        <base href="https://soucitne.cz/novinky/argumenty-pro-a-proti-pouzivani-zvirat-ve-vyzkumu" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="V tomto článku, který je úryvkem z mé dizertační práce, najdete časté resp. typické argumenty odpůrců, ale i zastánců používání zvířat v rámci..." />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<link rel="preload" href="/images/logo-soucitne.png" as="image" />
+	<title>Argumenty pro a proti používání zvířat ve výzkumu - Soucitně</title>
+	<link href="/images/favicon_1.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://soucitne.cz/component/search/?Itemid=104&amp;layout=blog&amp;catid=8&amp;id=4303&amp;format=opensearch" rel="search" title="Hledat Soucitně" type="application/opensearchdescription+xml" />
+	<link href="/plugins/system/progressivewebappmaker/manifest.json" rel="manifest" />
+	<link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet" type="text/css" />
+	<link href="/plugins/system/wf_responsive_widgets/css/responsive.min.css" rel="stylesheet" type="text/css" />
+	<link href="/plugins/system/jce/css/content.css?a6d4880993724df84ffc51d64830e916" rel="stylesheet" type="text/css" />
+	<link href="/templates/pb_soucitne/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/pb_soucitne/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/pb_soucitne/css/fa-v4-shims.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/pb_soucitne/css/template.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/pb_soucitne/css/presets/default.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/pb_soucitne/css/custom.css" rel="stylesheet" type="text/css" />
+	<link href="/media/plg_n3tcookieconsent/css/n3tconsentmanager.min.css?a6d4880993724df84ffc51d64830e916" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+
+        .splide__pagination {
+            bottom: -1.5em;
+        }
+        
+        .splide__arrow--prev {
+            left: 0.5em;
+        }
+        
+        .splide__arrow--next {
+            right: 0.5em;
+        }
+        
+        .splide__arrow {
+            background: none !important;
+        }
+        .splide__arrow:disabled {
+            visibility: hidden;
+        }
+        .splide__pagination__page.is-active {
+            background: #595959;
+        }.logo-image {height:60px;}.logo-image-phone {height:60px;}.logo-image {height:60px;}.logo-image-phone {height:60px;}#sp-hledat{ background-color:#f3852e;padding:50px; }#sp-spodni{ background-color:#e9ecef; }#sp-bottom{ padding:50px 0px 10px 0px; }#sp-footer{ padding:20px 0px 20px 0px; }
+        .splide__pagination {
+            bottom: -1.5em;
+        }
+        
+        .splide__arrow--prev {
+            left: 0.5em;
+        }
+        
+        .splide__arrow--next {
+            right: 0.5em;
+        }
+        
+        .splide__arrow {
+            background: none !important;
+        }
+        .splide__arrow:disabled {
+            visibility: hidden;
+        }
+        .splide__pagination__page.is-active {
+            background: #595959;
+        }:root {
+    --cc-btn-primary-bg: rgba(67, 191, 36, 1);
+    --cc-btn-primary-hover-bg: rgba(58, 168, 30, 1);
+    --cc-trigger-icon: rgba(64, 64, 64, 1);
+  }
+button#c-s-bn{
+background-color: #fff !important;
+    color: #333 !important;
+    border: 1px solid;
+}#pwamaker_pwa-loader-overlay {
+                display:none;
+                position:fixed;
+                top:0px;
+                left:0px;
+                bottom:0px;
+                right:0px;
+                z-index:999999;
+                background:rgba(54, 25, 25, 0.2) none repeat scroll 0 0;
+                text-align: center;
+            }
+            #pwamaker_pwa-loader{
+                top:50%;
+                position:relative;
+                color:#fff;
+                font-size: 18px;
+                z-index: 9999999;
+            }
+            #pwamaker_pwa_offline_bar {
+                display:none;
+				background-color: red;
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				max-height: 60px;
+				text-align: center;
+				z-index: 9999999;
+				font-size: 20px;
+				font-weight: bold;
+				color: #fff;
+				padding: 30px 10px;
+				opacity: 0.6;
+            }
+                    .is-mobile .pwamaker-spinner{
+                        width:72px;
+                        height:72px;
+                        display:inline-block;
+                        box-sizing:border-box;
+                        position:relative
+                    }
+                    .is-mobile .pwamaker-skeleton{
+                        border-radius:50%;
+                        border-top:solid 6px #bababa;
+                        border-right:solid 6px transparent;
+                        border-bottom:solid 6px transparent;
+                        border-left:solid 6px transparent;
+                        animation:pwamaker-skeleton-animate 1s linear infinite
+                    }
+                    .is-mobile .pwamaker-skeleton:before{
+                        border-radius:50%;
+                        content:" ";
+                        width:72px;
+                        height:72px;
+                        display:inline-block;
+                        box-sizing:border-box;
+                        border-top:solid 6px transparent;
+                        border-right:solid 6px transparent;
+                        border-bottom:solid 6px transparent;
+                        border-left:solid 6px #bababa;
+                        position:absolute;
+                        top:-6px;
+                        left:-6px;
+                        transform:rotateZ(-30deg)
+                    }
+                    .is-mobile .pwamaker-skeleton:after{
+                        border-radius:50%;
+                        content:" ";
+                        width:72px;
+                        height:72px;
+                        display:inline-block;
+                        box-sizing:border-box;
+                        border-top:solid 6px transparent;
+                        border-right:solid 6px #bababa;
+                        border-bottom:solid 6px transparent;
+                        border-left:solid 6px transparent;
+                        position:absolute;
+                        top:-6px;
+                        right:-6px;
+                        transform:rotateZ(30deg)
+                    }
+                    @keyframes pwamaker-skeleton-animate{
+                        0%{
+                            transform:rotate(0);
+                            opacity:1
+                        }
+                        50%{
+                            opacity:.8
+                        }
+                        100%{
+                            transform:rotate(360deg);
+                            opacity:1
+                        }
+                    }
+
+                
+	</style>
+	<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery.min.js?a6d4880993724df84ffc51d64830e916" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?a6d4880993724df84ffc51d64830e916" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?a6d4880993724df84ffc51d64830e916" type="text/javascript"></script>
+	<script src="/media/system/js/caption.js?a6d4880993724df84ffc51d64830e916" type="text/javascript"></script>
+	<script src="/plugins/system/wf_responsive_widgets/js/responsive.min.js" type="text/javascript"></script>
+	<script src="/templates/pb_soucitne/js/popper.min.js" type="text/javascript"></script>
+	<script src="/templates/pb_soucitne/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="/templates/pb_soucitne/js/main.js" type="text/javascript"></script>
+	<script src="/templates/pb_soucitne/js/custom.js" type="text/javascript"></script>
+	<script src="/media/plg_n3tcookieconsent/js/cookieconsent.min.js?a6d4880993724df84ffc51d64830e916" defer="defer" type="text/javascript"></script>
+	<script src="https://soucitne.cz/plugins/system/progressivewebappmaker/assets/js/pwa_maker.js" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});template="pb_soucitne";
+                    var cacheName     = "Soucitně.cz - Váš průvodce veganstvím";
+                    var filesToCache  = [
+                        "/",
+                        "/index.html"
+                    ];
+                    var pwamakerSiteUrl     = "https://soucitne.cz/";
+                
+	</script>
+	<script type="application/ld+json">
+
+    {
+      "@context": "https://schema.org/",
+      "@type": "Article",
+      "headline": "Argumenty pro a proti používání zvířat ve výzkumu",
+      "image": [
+        "https://soucitne.cz/images/2022/10/12/night-cafe-studio.jpg"
+      ],
+      "datePublished": "2022-11-05 10:22:25",
+			"dateModified": "2022-11-05 12:47:33",
+			"publisher": {
+				"@type": "Organization",
+				"Name": "Soucitně.cz",
+				"logo": {
+	          "@type": "ImageObject",
+	          "url": "https://soucitne.cz/images/logo-soucitne.png"
+	        }
+			},
+			"author": {
+        "@type": "Person",
+        "name": "Tereza Vandrovcová"
+      }
+
+    }
+
+	</script>
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="https://soucitne.cz/novinky/argumenty-pro-a-proti-pouzivani-zvirat-ve-vyzkumu" />
+	<meta property="og:title" content="Argumenty pro a proti používání zvířat ve výzkumu" />
+	<meta property="og:description" content="V tomto článku, který je úryvkem z mé dizertační práce, najdete časté resp. typické argumenty odpůrců, ale i zastánců používání zvířat v rámci..." />
+	<meta property="og:image" content="https://image.soucitne.cz/tr/images/2022/10/12/night-cafe-studio.jpg?gravity=auto&w=1200&h=630&force_format=jpeg&wat=1&wat_url=images/headers/fb-share-patt2.png&wat_gravity=southeast" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="fb:app_id" content="297799780277725" />
+	<meta property="og:site_name" content="Soucitně" />
+	<meta name="twitter:description" content="V tomto článku, který je úryvkem z mé dizertační práce, najdete časté resp. typické argumenty odpůrců, ale i zastánců používání zvířat v rámci..." />
+	<meta name="twitter:image:src" content="images/2022/10/12/night-cafe-studio.jpg" />
+	<meta name="twitter:site" content="@Soucitne_cz" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="theme-color" content="#ffffff">
+	<link rel="apple-touch-icon" sizes="57x57" href="https://soucitne.cz/images/headers/icon-57.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://soucitne.cz/images/headers/icon-180.png">
+<link rel="preload" as="font" type="font/woff2" href="/templates/pb_soucitne/fonts/open-sans-v17-latin-ext_latin-300.woff2" crossorigin="crossorigin"> 
+<link rel="preload" as="font" type="font/woff2" href="/templates/pb_soucitne/fonts/open-sans-v17-latin-ext_latin-regular.woff2" crossorigin="crossorigin"> 
+<link rel="preload" as="font" type="font/woff2" href="/templates/pb_soucitne/fonts/open-sans-v17-latin-ext_latin-700.woff2" crossorigin="crossorigin"> 
+<link rel="preload" as="font" type="font/woff2" href="/templates/pb_soucitne/fonts/open-sans-v17-latin-ext_latin-800.woff2" crossorigin="crossorigin"> 
+
+<link rel="preload" as="font" type="font/woff2" href="/templates/pb_soucitne/fonts/fa-brands-400.woff" crossorigin="crossorigin">
+<link rel="preload" as="font" type="font/woff2" href="/templates/pb_soucitne/fonts/fa-solid-900.woff" crossorigin="crossorigin">
+
+<link rel="preload" as="image" type="image/svg+xml" href="/templates/pb_soucitne/fonts/icons-1.svg" >
+<link rel="preload" as="image" type="image/svg+xml" href="/templates/pb_soucitne/fonts/icons-2.svg" >
+
+
+<link rel="preload" as="font" type="font/woff2" href="/templates/pb_soucitne/fonts/merriweather-v21-latin-ext_latin-regular.woff2" crossorigin="crossorigin"> 
+<link rel="preload" as="font" type="font/woff2" href="/templates/pb_soucitne/fonts/merriweather-v21-latin-ext_latin-italic.woff2" crossorigin="crossorigin"> 
+<link rel="preload" as="font" type="font/woff2" href="/templates/pb_soucitne/fonts/merriweather-v21-latin-ext_latin-700.woff2" crossorigin="crossorigin"> 
+<link rel="preload" as="font" type="font/woff2" href="/templates/pb_soucitne/fonts/merriweather-v21-latin-ext_latin-700italic.woff2" crossorigin="crossorigin">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<script src="/templates/pb_soucitne/js/jquery.touchSwipe.min.js" type="text/javascript"></script>
+
+	<script async src="/templates/pb_soucitne/js/jquery-ui.min.js" type="text/javascript"></script>
+ 
+    <noscript>
+    <style>
+        img.jch-lazyload, iframe.jch-lazyload{
+            display: none;
+        }
+    </style>
+</noscript>
+		<script src="/media/com_jchoptimize/cache/js/0fa0a33e5a82d08405d2c45c894cc75a673f2a8acd9f34ffe5e3b987140221fa.js" async></script>
+
+
+
+
+
+	</head>
+    <body class="site helix-ultimate com-content view-article layout-blog task-none itemid-104 cs-cz ltr sticky-header layout-fluid offcanvas-init offcanvs-position-right">
+    <style>
+        H1,H2,H3 {
+        font-weight: 900;
+        font-family: 'Open Sans', sans-serif;
+    }
+        H5 a.kalendar {
+        font-size: 0.95rem;
+        color: #252525;
+    }
+        .contact-articles H3 a, .tags-results H3 a, .search .search-results H3 a {
+        color: #252525;
+    }
+        H3 {
+        font-size: 22px;
+    }
+        H1 {
+        font-size: 42px;
+    }
+    </style>
+
+      <!-- Google Tag Manager (noscript) 
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57VJPKR"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+     End Google Tag Manager (noscript) -->
+
+      
+    
+    <div class="body-wrapper">
+        <div class="body-innerwrapper">
+            <div id="sp-top-bar"><div class="container"><div class="container-inner"><div class="row"><div id="sp-top1" class="col-lg-6"><div class="sp-column text-center text-lg-left"></div></div><div id="sp-top2" class="col-lg-6"><div class="sp-column text-center text-lg-right"><div class="sp-module horizontal-menu"><div class="sp-module-content"><span class="menu">
+<span class="item-111"><a href="/o-nas" >O nás</a></span><span class="item-359"><a href="/pridej-se" >Přidej se</a></span><span class="item-112"><a href="/odkazy" >Odkazy</a></span><span class="item-113"><a href="/kontakt" >Kontakt</a></span><span class="item-114"><a href="#" class="hledat-btn" rel="noreferrer">Hledat</a></span></span>
+</div></div></div></div></div></div></div></div><header id="sp-header"><div class="container"><div class="container-inner"><div class="row"><div class="col-2 d-md-none mobile-back">
+<svg style="width: 20px; height: 20px; margin-bottom: -14px; fill: #333;"><use xlink:href="/templates/pb_soucitne/fonts/icons-1.svg#chevron-left"></use></svg>
+</div><div id="sp-logo" class="col-8 col-lg-3"><div class="sp-column"><div class="logo"><a href="/"><img class="logo-image" src="/images/logo-soucitne.png" alt="Soucitně" width="232" height="60" /></a></div></div></div><div id="sp-menu" class="col-2 col-lg-9"><div class="sp-column"><nav class="sp-megamenu-wrapper" role="navigation"><a id="offcanvas-toggler" aria-label="Navigation" class="offcanvas-toggler-right d-block d-lg-none" href="#">
+				<svg title="Navigation" style="width: 20px; height: 20px; margin-bottom: -4px; fill: #333;"><use xlink:href="/templates/pb_soucitne/fonts/icons-1.svg#bars"></use></svg>
+				</a><ul class="sp-megamenu-parent menu-animation-fade d-none d-lg-block"><li class="sp-menu-item megamenu"></li><li class="sp-menu-item megamenu current-item active"><a  href="/novinky" >Novinky</a></li><li class="sp-menu-item sp-has-child megamenu"><a  href="/recepty" >Recepty</a><div class="sp-dropdown sp-dropdown-main sp-dropdown-mega sp-menu-full container" style=""><div class="sp-dropdown-inner"><div class="row"><div class="col-sm-3"><ul class="sp-mega-group"><li class="item-197 menu_item item-header"><a class="megamenu-title" href="/recepty/pred-jidlem" >Před jídlem</a><ul class="sp-mega-group-child sp-dropdown-items"><li class="sp-menu-item"><a  href="/recepty/pred-jidlem/polevky" >Polévky</a></li></ul></li><li class="item-198 menu_item item-header"><a  href="/recepty/po-jidle-ci-k-jidlu" >Po jídle či k jídlu</a><ul class="sp-mega-group-child sp-dropdown-items"><li class="sp-menu-item"><a  href="/recepty/po-jidle-ci-k-jidlu/prilohy" >Přílohy</a></li><li class="sp-menu-item"><a  href="/recepty/po-jidle-ci-k-jidlu/salaty" >Saláty</a></li></ul></li></ul></div><div class="col-sm-3"><ul class="sp-mega-group"><li class="item-199 menu_item item-header"><a  href="/recepty/hlavni-jidla" >Hlavní jídla</a><ul class="sp-mega-group-child sp-dropdown-items"><li class="sp-menu-item"><a  href="/recepty/hlavni-jidla/arabska-a-indicka-jidla" >Arabská a indická jídla</a></li><li class="sp-menu-item"><a  href="/recepty/hlavni-jidla/houbova-jidla" >Houbová jídla</a></li><li class="sp-menu-item"><a  href="/recepty/hlavni-jidla/italska-jidla-testoviny" >Italská jídla, těstoviny</a></li><li class="sp-menu-item"><a  href="/recepty/hlavni-jidla/ke-knedlikum" >Ke knedlíkům</a></li><li class="sp-menu-item"><a  href="/recepty/hlavni-jidla/lusteniny" >Luštěniny</a></li><li class="sp-menu-item"><a  href="/recepty/hlavni-jidla/mexicka-a-spanelska-jidla" >Mexická a španělská jídla</a></li><li class="sp-menu-item"><a  href="/recepty/hlavni-jidla/tofu-soja-apod" >Tofu, soja apod.</a></li><li class="sp-menu-item"><a  href="/recepty/hlavni-jidla/zeleniny" >Zeleniny</a></li></ul></li></ul></div><div class="col-sm-3"><ul class="sp-mega-group"><li class="item-200 menu_item item-header"><a  href="/recepty/chutovky-a-dobroty" >Chuťovky a dobroty</a><ul class="sp-mega-group-child sp-dropdown-items"><li class="sp-menu-item"><a  href="/recepty/chutovky-a-dobroty/pomazanky" >Pomazánky</a></li><li class="sp-menu-item"><a  href="/recepty/chutovky-a-dobroty/sladka-jidla" >Sladká jídla</a></li><li class="sp-menu-item"><a  href="/recepty/chutovky-a-dobroty/cukrovi" >Cukroví</a></li><li class="sp-menu-item"><a  href="/recepty/chutovky-a-dobroty/vanoce" >Vánoce</a></li><li class="sp-menu-item"><a  href="/recepty/chutovky-a-dobroty/pochoutky" >Pochoutky</a></li></ul></li></ul></div><div class="col-sm-3"><ul class="sp-mega-group"><li class="item-106 module "><div class="sp-module "><h3 class="sp-module-title">Nejnovější recept</h3><div class="sp-module-content"><div class="image-in-menu latestnews">
+
+<a href="/recepty/velikonocni-nadivka-vegan">
+	<img class=" jch-lazyload" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjAwIj48L3N2Zz4=" data-src="/images/stories/recepty/velikonocni-nadivka-vegan4219_thumbnail.jpg" alt="Velikonoční nádivka (vegan)" width="250" height="200" /><noscript><img class="" src="/images/stories/recepty/velikonocni-nadivka-vegan4219_thumbnail.jpg" alt="Velikonoční nádivka (vegan)" width="250" height="200" /></noscript>
+</a>
+	<a href="/recepty/velikonocni-nadivka-vegan">
+		<h5 class="">Velikonoční nádivka (vegan)</h5>
+    </a>
+
+
+
+</div>
+</div></div></li></ul></div></div></div></div></li><li class="sp-menu-item megamenu"><a  href="/veganstvi/zajimavosti/kalendar-akci" >Akce</a></li><li class="sp-menu-item megamenu"><a  href="/vegan-restaurace-mapa" >Restaurace</a></li><li class="sp-menu-item megamenu"><a  href="/prodejny-zdrave-vyzivy-mapa" >Prodejny</a></li><li class="sp-menu-item megamenu"><a  href="/vegan-ubytovani-mapa" >Ubytování</a></li><li class="sp-menu-item sp-has-child megamenu"><a  href="/veganstvi" >Veganství </a><div class="sp-dropdown sp-dropdown-main sp-dropdown-mega sp-menu-full container" style=""><div class="sp-dropdown-inner"><div class="row"><div class="col-sm-4"><ul class="sp-mega-group"><li class="item-196 menu_item item-header"><a  href="/veganstvi/temata" >Témata</a><ul class="sp-mega-group-child sp-dropdown-items"><li class="sp-menu-item"><a  href="/veganstvi/temata/ekologie" ><span class="fa leaf"></span> Ekologie</a></li><li class="sp-menu-item"><a  href="/veganstvi/temata/etika" ><span class="fa graduation-cap"></span> Etika</a></li><li class="sp-menu-item"><a  href="/veganstvi/temata/zdravi" ><span class="fa heartbeat"></span> Zdraví</a></li><li class="sp-menu-item"><a  href="/veganstvi/temata/aktivismus" ><span class="fa hand-peace"></span> Aktivismus</a></li><li class="sp-menu-item"><a  href="/veganstvi/temata/osobnosti" ><span class="fa user-tie"></span> Osobnosti</a></li><li class="sp-menu-item"><a  href="/veganstvi/temata/deti" ><span class="fa child"></span> Děti</a></li><li class="sp-menu-item"><a  href="/veganstvi/temata/azyly" ><span class="fa paw"></span> Azyly</a></li><li class="sp-menu-item"><a  href="/veganstvi/temata/rozhovory" ><span class="fa comments"></span> Rozhovory</a></li></ul></li></ul></div><div class="col-sm-4"><ul class="sp-mega-group"><li class="item-195 menu_item item-header"><a  href="/veganstvi/zajimavosti" >Zajímavosti</a><ul class="sp-mega-group-child sp-dropdown-items"><li class="sp-menu-item"><a  href="/veganstvi/zajimavosti/kalendar-akci" ><span class="fa calendar-alt"></span> Kalendář akcí</a></li><li class="sp-menu-item"><a  href="/veganstvi/zajimavosti/pridat-udalost" ><span class="fa calendar-plus"></span> Přidat událost</a></li><li class="sp-menu-item"><a  href="/veganstvi/zajimavosti/slavni-vegani-a-vegetariani" ><span class="fa user-tie"></span> Slavní vegani a vegetariáni</a></li><li class="sp-menu-item"><a  href="/veganstvi/zajimavosti/citaty" ><span class="fa quote-left"></span> Citáty</a></li><li class="sp-menu-item"><a  href="/veganstvi/zajimavosti/videa" ><span class="fa video"></span> Videa</a></li><li class="sp-menu-item"><a  href="/veganstvi/zajimavosti/vyznamne-dny" ><span class="fa glass-martini"></span> Významné dny</a></li><li class="sp-menu-item"><a  href="/veganstvi/zajimavosti/certifikaty" ><span class="fa certificate"></span> Certifikáty</a></li></ul></li></ul></div><div class="col-sm-4"><ul class="sp-mega-group"><li class="item-202 menu_item item-header"><a  href="/veganstvi/prakticke-informace" >Praktické informace</a><ul class="sp-mega-group-child sp-dropdown-items"><li class="sp-menu-item"><a  href="/co-je-veganstvi" >Co je veganství</a></li><li class="sp-menu-item"><a  href="/veganstvi/prakticke-informace/jak-se-stat-veganem" >Jak se stát veganem? </a></li><li class="sp-menu-item"><a  href="/veganstvi/prakticke-informace/casto-kladene-otazky-o-veganstvi-faq" >Často kladené otázky o veganství (FAQ)</a></li><li class="sp-menu-item"><a  href="/veganstvi/prakticke-informace/argumenty-a-odpovedi" >Argumenty a odpovědi</a></li><li class="sp-menu-item"><a  href="/veganstvi/prakticke-informace/zaklady-veganske-vyzivy" >Základy veganské výživy</a></li><li class="sp-menu-item"><a  href="/veganstvi/prakticke-informace/ziviny-a-jejich-zdroje" >Živiny a jejich zdroje</a></li><li class="sp-menu-item"><a  href="/veganstvi/prakticke-informace/10-instituci-schvaluje-veganstvi" >10 institucí schvaluje veganství</a></li><li class="sp-menu-item"><a  href="/veganstvi/prakticke-informace/vegani-na-cestach" >Vegani na cestách</a></li><li class="sp-menu-item"><a  href="/veganstvi/prakticke-informace/seznam-ecek-v-potravinach" >Seznam éček v potravinách</a></li><li class="sp-menu-item"><a  href="/vegan-catering" >Veganské cateringy</a></li></ul></li></ul></div></div></div></div></li><li class="sp-menu-item kalendar-m"><a  href="/veganstvi/zajimavosti/kalendar-akci" >Kalendář akcí</a></li><li class="sp-menu-item"><a  href="https://www.facebook.com/soucitne" target="_blank" title="Facebook" ><span class="fa facebook-f"></span></a></li></ul></nav></div></div></div></div></div></header>            <section id="sp-section-1"><div class="row"><div id="sp-title" class="col-lg-12 "><div class="sp-column "></div></div></div></section><section id="sp-hledat"><div class="container"><div class="container-inner"><div class="row"><div id="sp-search" class="col-lg-12 d-none d-sm-none d-md-block"><div class="sp-column "><div class="sp-module "><div class="sp-module-content"><div class="search">
+	<form action="/novinky" method="post">
+		<input name="searchword" id="mod-search-searchword127" class="form-control" type="search" placeholder="Vyhledat...">		<input type="hidden" name="task" value="search">
+		<input type="hidden" name="option" value="com_search">
+		<input type="hidden" name="Itemid" value="104">
+	</form>
+</div>
+</div></div></div></div></div></div></div></section><section id="sp-main-body"><div class="container"><div class="container-inner"><div class="row"><main id="sp-component" class="col-lg-9 " role="main"><div class="sp-column "><div id="system-message-container">
+	</div>
+<div class="article-details " itemscope itemtype="https://schema.org/Article">
+	<meta itemprop="inLanguage" content="cs-CZ">
+	
+
+
+		
+		<div class="article-header">
+					<h1 itemprop="headline">
+				Argumenty pro a proti používání zvířat ve výzkumu			</h1>
+								
+
+
+				<div class="article-can-edit text-right">
+								</div>
+					<div class="article-info">
+
+	
+					<span class="createdby" itemprop="author" itemscope itemtype="https://schema.org/Person" title="Autor: ">
+				<a href="/redakce/tereza-vandrovcova" itemprop="url">
+		<span itemprop="name">Tereza Vandrovcová</span>		</a>
+	</span>
+		
+		
+					<span class="category-name" title="Kategorie: Novinky">
+			<a href="/novinky">Novinky</a>
+	</span>
+		
+		
+					<span class="published" title="Zveřejněno: 5. listopad 2022">
+	<time datetime="2022-11-05T11:22:25+01:00" itemprop="datePublished">
+		5. listopad 2022	</time>
+</span>
+				
+		
+	
+			
+		
+			</div>
+			</div>
+
+
+	
+	
+		
+
+
+   				<div class="article-full-image">
+	<picture>
+		<source media="(min-width: 1200px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2022/10/12/night-cafe-studio.jpg?w=765&force_format=webp&q=80" type="image/webp" itemprop="image">
+		<source media="(min-width: 992px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2022/10/12/night-cafe-studio.jpg?w=630&force_format=webp&q=80" type="image/webp" itemprop="image">
+		<source media="(min-width: 768px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2022/10/12/night-cafe-studio.jpg?w=630&force_format=webp&q=80" type="image/webp" itemprop="image" >
+		<source media="(max-width: 767px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2022/10/12/night-cafe-studio.jpg?w=510&force_format=webp&q=80" type="image/webp" itemprop="image">
+
+		<source media="(min-width: 1200px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2022/10/12/night-cafe-studio.jpg?w=765&force_format=jpeg&q=80" type="image/jpeg" itemprop="image">
+		<source media="(min-width: 992px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2022/10/12/night-cafe-studio.jpg?w=630&force_format=jpeg&q=80" type="image/jpeg" itemprop="image">
+		<source media="(min-width: 768px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2022/10/12/night-cafe-studio.jpg?w=630&force_format=jpeg&q=80" type="image/jpeg" itemprop="image">
+		<source media="(max-width: 767px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2022/10/12/night-cafe-studio.jpg?w=510&force_format=jpeg&q=80" type="image/jpeg" itemprop="image">
+
+		<img class="jch-lazyload" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-src="/images/2022/10/12/night-cafe-studio_large.jpg" alt="Argumenty pro a proti používání zvířat ve výzkumu" itemprop="image" width="765" height="510" />
+
+	</picture>
+						<p class="img_caption"> Night Cafe Studio </p>
+			</div>
+
+		
+		
+	<div class="row">
+		<div class="col-md-3 col-sm-12 order-2 order-md-1 ">
+			<div>
+									<div class="article-ratings-social-share d-flex /justify-content-end">
+						<div class="/mr-auto /align-self-center">
+													</div>
+						<div>
+							<div class="article-social-share">
+	<div class="social-share-icon">
+		<ul>
+											<li>
+					<a class="facebook" onClick="window.open('https://www.facebook.com/sharer.php?u=https://soucitne.cz/novinky/argumenty-pro-a-proti-pouzivani-zvirat-ve-vyzkumu','Facebook','width=600,height=300,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-150)+''); return false;" href="https://www.facebook.com/sharer.php?u=https://soucitne.cz/novinky/argumenty-pro-a-proti-pouzivani-zvirat-ve-vyzkumu" title="Facebook">
+						<svg style="width: 22px; height: 22px; margin-bottom: -2px; fill: #fff;"><use xlink:href="/templates/pb_soucitne/fonts/icons-1.svg#facebook-f"></use></svg>
+					</a>
+				</li>
+																											<li>
+					<a class="twitter" title="Twitter" onClick="window.open('https://twitter.com/share?url=https://soucitne.cz/novinky/argumenty-pro-a-proti-pouzivani-zvirat-ve-vyzkumu&amp;text=Argumenty%20pro%20a%20proti%20používání%20zvířat%20ve%20výzkumu','Twitter share','width=600,height=300,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-150)+''); return false;" href="https://twitter.com/share?url=https://soucitne.cz/novinky/argumenty-pro-a-proti-pouzivani-zvirat-ve-vyzkumu&amp;text=Argumenty%20pro%20a%20proti%20používání%20zvířat%20ve%20výzkumu">
+					<svg style="width: 22px; height: 22px; margin-bottom: -2px; fill: #fff;"><use xlink:href="/templates/pb_soucitne/fonts/icons-2.svg#twitter"></use></svg>
+					</a>
+				</li>
+																												<li>
+						<a class="linkedin" title="LinkedIn" onClick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://soucitne.cz/novinky/argumenty-pro-a-proti-pouzivani-zvirat-ve-vyzkumu','Linkedin','width=585,height=666,left='+(screen.availWidth/2-292)+',top='+(screen.availHeight/2-333)+''); return false;" href="https://www.linkedin.com/shareArticle?mini=true&url=https://soucitne.cz/novinky/argumenty-pro-a-proti-pouzivani-zvirat-ve-vyzkumu" >
+						<svg style="width: 22px; height: 22px; margin-bottom: -2px; fill: #fff;"><use xlink:href="/templates/pb_soucitne/fonts/icons-2.svg#linkedin-in"></use></svg>
+						</a>
+					</li>
+										</ul>
+		</div>
+	</div>
+						</div>
+					</div>
+				
+															<ul class="tags list-inline">
+																	<li class="list-inline-item tag-412 tag-list0" itemprop="keywords">
+					<a href="/stitky/testovani" class="label label-info">
+						testování					</a>
+				</li>
+																				<li class="list-inline-item tag-485 tag-list1" itemprop="keywords">
+					<a href="/stitky/etika" class="label label-info">
+						etika					</a>
+				</li>
+						</ul>
+				
+								<div class="reklama-clanek">
+					<!--<span><small>Reklama <a href="/reklama" title="Na co používáme příjmy z reklamy?"><i class="fa fa-info-circle"></i></a></small></span>-->
+					<!-- START: Modules Anywhere --><div class="bannergroup">
+
+	<div class="banneritem">
+																																																													
+												<a
+							href="/component/banners/click/32" target="_blank" rel="noopener noreferrer noindex nofollow"
+							title="Přihlas se do Veggie Challenge - 30denní rostlinné výzvy">
+							<picture>
+								<source media="(min-width: 768px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iNjAwIj48L3N2Zz4=" data-srcset="https://soucitne.cz/images/clanky/bbaanneerry/vc-clanek.png"  />
+								<source media="(max-width: 767px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iNjAwIj48L3N2Zz4=" data-srcset="https://soucitne.cz/images/clanky/bbaanneerry/vc-clanek_mobile.png" />
+								<img class="jch-lazyload"
+								src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iNjAwIj48L3N2Zz4=" data-src="https://soucitne.cz/images/clanky/bbaanneerry/vc-clanek.png"
+								style="border: 1px solid #ccc;"
+								alt="Přihlas se do Veggie Challenge - 30denní rostlinné výzvy" width="120" height="600" />
+							</picture>
+
+						</a>
+																<div class="clr"></div>
+	</div>
+
+</div>
+<!-- END: Modules Anywhere --><!-- START: Modules Anywhere --><div class="bannergroup">
+
+	<div class="banneritem">
+																																																													
+												<a
+							href="/component/banners/click/29" target="_blank" rel="noopener noreferrer noindex nofollow"
+							title="Dokumentární film Svědectví: Pravda, která měla zůstat skryta">
+							<picture>
+								<source media="(min-width: 768px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iNjAwIj48L3N2Zz4=" data-srcset="https://soucitne.cz/images/clanky/bbaanneerry/svedectvi-clanek2.jpg"  />
+								<source media="(max-width: 767px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iNjAwIj48L3N2Zz4=" data-srcset="https://soucitne.cz/images/clanky/bbaanneerry/svedectvi-clanek2_mobile.jpg" />
+								<img class="jch-lazyload"
+								src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iNjAwIj48L3N2Zz4=" data-src="https://soucitne.cz/images/clanky/bbaanneerry/svedectvi-clanek2.jpg"
+								style="border: 1px solid #ccc;"
+								alt="Dokumentární film Svědectví: Pravda, která měla zůstat skryta" width="120" height="600" />
+							</picture>
+
+						</a>
+																<div class="clr"></div>
+	</div>
+
+</div>
+<!-- END: Modules Anywhere -->				</div>
+							</div>
+		</div>
+		<div class="col-md-9 col-sm-12 order-1 order-md-2 ">
+
+			
+		
+			<div itemprop="articleBody" class="articleBody mb-3">
+				
+<p class="perex">V tomto článku, který je úryvkem z mé dizertační práce,<sup>1</sup> najdete časté resp. typické argumenty odpůrců, ale i zastánců používání zvířat v rámci biomedicínských výzkumů. Nejprve se věnuje etickým a filosofickým argumentům a poté argumentům praktickým a vědeckým.</p>
+<h2>1. Práva lidí a ostatních zvířat</h2>
+<h3>PRO:</h3>
+<p>Někteří autoři zastávají názor, že poskytnutí práv a ochrany před pokusy neracionálním a amorálním zvířatům je v rozporu s ochranou lidských práv. Alex Epstein dokonce říká, že se koncept práv mění z „nástroje lidské ochrany na nástroj lidského vyhubení“<sup>2</sup>. Je přesvědčen, že aplikace tohoto konceptu znamená, že lidé raději podlehnou smrtící epidemii, než aby obětovali laboratorní zvířata a našli účinnou léčbu.</p>
+<p>Patrick Bateson argumentuje tím, že práva jsou konsensuálním kontraktem. Dát zvířatům právo je stejně nesmyslné jako jim dát právo volit<sup>3</sup>. Podobný názor sdílí i Carl Cohen, který tvrdí, že „Zvířata nemohou být nositeli práv, protože koncept práv je esenciálně lidský; má kořeny a platnost v lidském morálním světě“<sup>4</sup>. Bylo by podle něj přece nesmyslné zasahovat do boje mezi lvem a zebrou, ale pokud by zebra měla práva, tak bychom to učinit měli.&nbsp;</p>
+<h3>PROTI:</h3>
+<p>Tom Regan tvrdí, že filosofie práv zvířat je zcela v souladu se současnou vědou a zejména pak s evoluční biologií. Připomíná Darwinův výrok, že se lidé od ostatních zvířat liší „ve stupni, nikoliv ve druhu“<sup>5</sup>. Rozdíly mezi lidmi a jinými druhy tedy nejsou kvalitativní, ale kvantitativní. Regan vyvozuje, že zvířata, která využíváme pro jídlo či vědecký výzkum, jsou naši blízcí příbuzní, což je dle něj fakt potvrzený vědou. Dle Regana jde v konceptu práv zvířat o závazek chránit slabé a bezbranné před lidskou chamtivostí. „Tato filosofie vyžaduje tento závazek ne kvůli svým vlastním zájmům, ale protože je to správná věc.“<sup>6</sup></p>
+<p>Regan rovněž zpochybňuje oprávněnost rozdílného přístupu k lidem a ostatním zvířatům. „Lidská práva kladou ospravedlnitelné limity tomu, co mohou lidé dělat jeden druhému. Např. právo na tělesnou integritu neumožňuje fyzický útok na tělo druhé osoby na základě toho, že z toho budou mít ostatní ve výsledku nějaký užitek.“<sup>7</sup>&nbsp;Pokud by zabití jednoho člověka poskytlo orgány pro tři další nemocné, také bychom to neudělali. Pokud uznáme, že mají zvířata také práva, pak by nemohlo být morálně přijatelné „nic menšího než úplné zrušení výzkumu se zvířecími modely“<sup>7</sup>. Práva jsou podle něj karetním trumfem v morální hře a převáží veškeré potenciální užitky.&nbsp;</p>
+<p>David Thomas obdobně argumentuje tím, že pakliže věda nepovažuje za etické provádět experimenty na lidech, kteří k tomu nedali souhlas, neměla by považovat za etické ani pokusy na zvířatech, protože ta nám souhlas dát&nbsp; nemohou. „Pokusy na zvířatech a pokusy na lidech bez jejich souhlasu lze evidentně srovnávat, protože oba zahrnují fyzické a psychologické utrpení nedobrovolné, citící oběti. V obou případech není souhlas ani hledán ani předpokládán a oběť není zamýšleným beneficientem.“<sup>8</sup>&nbsp;Jestliže není správné dělat pokus proto, že způsobuje bolest, nemělo by podle něj být správné takový pokus provádět ani na zvířatech, která bolest cítí taktéž.</p>
+<p>Etická filosofie by podle něj měla k podobným případům přistupovat podobně – jinak je oportunistická. Máme-li být konzistentní, pak Thomas trvá na tom, že „pakliže odsoudíme vysoce invazivní fyzické zneužívání, musíme odsoudit všechny jeho formy. V otázkách etiky by měla být identita oběti – černá či bílá, árijská či židovská, mužská či ženská, lidská či mimolidská – irelevantní.“<sup>9</sup></p>
+<p>Naše společnost se v&nbsp;případě etického posuzování pokusů na lidech a zvířatech dle Thomase dopouští etických úskoků, kdy se v&nbsp;případě pokusů na lidech bez jejich souhlasu uplatňuje deontologická etika, zatímco v&nbsp;případě provádění pokusů na zvířatech etika utilitaristická (resp. konsekvencialistická). „Převažující názor je, že takové pokusy [na lidech] jsou inherentně špatné, bez ohledu na potenciální prospěch ostatních.“<sup>8</sup> A&nbsp;i&nbsp;když je souhlas poskytnut, stále je dle Helsinské deklarace kladen obrovský důraz na pohodu subjektu, která by neměla být převážena zájmem vědy a společnosti: „zájem jedince převáží zájem lidstva jako celku, ačkoliv to pravděpodobně zpomalí hledání léku na AIDS“<sup>8</sup>. Utilitaristická etika se oproti tomu projevuje takto: „Zákon dovoluje vědcům způsobovat bolest zvířatům, pokud z toho mohou mít prospěch ostatní.“<sup>10</sup> Kromě toho dodává, že „pokud by pro morální ospravedlnění stačil úspěšný výstup, pokusy na lidech by byly ospravedlnitelné také – ve skutečnosti by byly ospravedlnitelné mnohem více, protože lidé jsou pro zkoumání lidských nemocí bezeporu daleko lepším vědeckým modelem než zvířata.“<sup>10</sup></p>
+<h2>2. Otázka inteligence a členství v morální komunitě</h2>
+<h3>PRO:</h3>
+<p>Josie Appleton obhajuje pokusy na zvířatech tím, že se člověk od ostatních zvířat odlišuje sebeuvědoměním a inteligencí. „Lidé jsou jedinými bytostmi, které jsou objektem sami pro sebe: nejen že existují, ale vědí, že existují; nejen že jednají, ale také své jednání reflektují.“<sup>11</sup></p>
+<p>Ilana Mercer kriticky reaguje na argument, že velcí primáti jsou také vysoce inteligentní a že s&nbsp;lidmi sdílejí většinu genů, a proto by jim měla být udělena lidská práva. „Bez ohledu na to, kolik genů tito muži [laureáti Nobelovy ceny] sdílejí s lidoopy a bez ohledu na to, jak jsou šimpanzi vnímaví, členové druhé jmenované skupiny nikdy nepřispějí k ‚teorii supravodičů a&nbsp;supratekutin‘ ani nebudou autorem dokumentu jako je ‚Deklarace nezávislosti.‘“<sup>12</sup></p>
+<h3>PROTI:</h3>
+<p>Thomas oproti tomu tvrdí, že inteligence je morálně neutrálním rysem. „Vždyť nedáváme větší práva vědci oceněnému Nobelovou cenou než nezaměstnanému dělníkovi.“<sup>13</sup>&nbsp;Také připomíná Benthamův výrok, že více než na rozumu záleží na tom, zda daný jedinec může trpět. Kromě toho uvádí, že mnoho zvířat je chytřejších než někteří lidé (např. se stařeckou demencí), a přesto toto kritérium nevyužíváme k tomu, abychom na nich prováděli experimenty.</p>
+<p>Regan uznává, že si lidé a ostatní zvířata nejsou rovni ve všech ohledech, ale zároveň dodává, že to neznamená, že je kvůli jejich odlišnosti můžeme libovolně zneužívat. „Např. netvrdíme, že psi a kočky umí počítat nebo že si prasata a krávy užívají poezii. Říkáme to, že ostatní zvířata, stejně jako lidé, jsou psychologické bytosti se schopností prožívat životní pohodu. V tomto smyslu jsme stejní jako oni. V tomto smyslu jsme si proto, i přes mnoho rozdílů, rovní.“<sup>14</sup></p>
+<h3>PRO:</h3>
+<p>Mercer se domnívá, že zvířata nemají mít práva, protože na rozdíl od lidí vzhledem ke své povaze nejsou morálními aktéry. Nemají svobodnou vůli, nejsou schopna rozlišovat dobro a&nbsp;zlo ani nemohou přemýšlet o svém jednání. Oproti tomu člověk je schopen odlišit dobré od špatného, a proto jej také můžeme např. potrestat.<sup>15</sup></p>
+<h3>PROTI:</h3>
+<p>Kritici na podobné argumenty, které připisují práva lidem a odpírají je zvířatům na základě morálních či kognitivních schopností, odpovídají, že existují lidé, kteří tyto charakteristiky nemají (např. malé děti nebo vážně postižení dospělí) a které zvířata předčí v inteligenci, kreativitě, schopnosti používat nástroje i morálním jednání. Matt Ball a Jack Norris uvádí, že „pokud by byla práva udělována na určité hranici inteligence, kreativity, morálního chování atd., některá zvířata by práva měla a někteří lidé by je neměli.“<sup>16</sup>&nbsp;Poukazují tedy na to, že ve skutečnosti nejde o tyto charakteristiky, na jejichž základě zvířata vyjímáme z&nbsp;morálního okruhu, ale že to&nbsp;co je zde rozhodující, je příslušnost k&nbsp;určitému živočišnému druhu.</p>
+<h3>PRO:</h3>
+<p>Cohen proti tomu namítá, že děti sice nemají morálku, ale jsou součástí lidské morální komunity. Nelze podle něj proto říct, že buď práva odepřeme dětem, nebo je musíme dát potkanům. Práva nejsou „svázána s nějakými identifikovatelnými individuálními schopnostmi a vnímáním“<sup>17</sup>. To je podle něj jen zmatek a nepochopení zastánců práv. Práva jsou odvozena od členství v komunitě morálních bytostí.</p>
+<p>Mercer rovněž argumentuje tvrzením, že lidé mají práva, protože jsou součástí morální komunity, zatímco zvířata „naslouchají volání divočiny“<sup>15</sup>. Když např. zabijí své mládě, nikdo je k soudu nepředvolá. Cohen k&nbsp;tomu explicitně dodává, že „práva znamenají i povinnosti“<sup>18</sup>.</p>
+<h3>PROTI:</h3>
+<p>Odpůrci oproti tomu odmítají předpoklad, že každý, kdo má práva, musí mít také povinnosti. Dle Thomase k tomu není žádný logický důvod a dodává, že u dětí a hendikepovaných to také nepovažujeme za nutný předpoklad.<sup>19</sup></p>
+<h3>PRO:</h3>
+<p>Appleton problém přiřazení práv marginálním případům řeší tím, že bere v&nbsp;úvahu také sounáležitost, kterou cítíme a dáváme ji svým blízkým bez ohledu na jejich schopnosti. „Jde také o vnímání lidí jako společné rodiny, což znamená, že můžeme zacházet s láskou a&nbsp;respektem i s těmi, kteří postrádají aktérství a racionalitu – jako postižené lidi a děti. Tito lidé žijí v síti vztahů a jsou milováni a ceněni těmi, kdo jsou kolem nich.“<sup>20</sup></p>
+<h3>PROTI:</h3>
+<p>Kritici tohoto argumentu poukazují na to, že hodnotu udělujeme i osiřelým dětem či postiženým lidem v ústavech, kteří např. nemají vlastní rodinu, která by je vnímala jako hodnotné a láskyhodné, a přesto jim (v ideálním případě) práva neupíráme. Ball a Norris dále namítají, že jsou lidmi oceňovány a milovány i jiné entity jako např. nové Porsche, ale přesto jim na tomto základě neudělujeme práva, čímž poukazují na určitou nekonzistenci předchozího stanoviska. Buď má vše, čemu lidé dávají hodnotu, svá práva, „nebo musí pro přidělování práv existovat odlišné kritérium“<sup>16</sup>. Podle aktivistů je pak ve skutečnosti tímto klíčovým kritériem druhismus.</p>
+<h2>3. Lidská výjimečnost</h2>
+<h3>PRO:</h3>
+<p>Zastánci pokusů někdy též argumentují lidskou výjimečností. Např. Appleton tvrdí, že lidé nejsou pouhým produktem evoluce (jak tvrdí protistrana), ale vylepšují sami sebe. Namísto přírodního kožichu, rychlých nohou či ostrých drápů vytváříme oblečení, dopravní prostředky a zbraně. „To není otázka stupně: je to otázka druhu.“<sup>11</sup>&nbsp;Darwin nám dle autorky jasně ukázal, že jsme se dokázali vymanit z procesu přírodní selekce, která svazuje všechny ostatní druhy. A za druhé nám ukázal, že jsme se vyvinuli a nebyli stvořeni Bohem, ale stali se tak fakticky sami sobě Bohem. „Koneckonců, který druh dokáže odhalit tajemství svého vlastního původu?“<sup>21</sup>&nbsp;</p>
+<h3>PROTI:</h3>
+<p>John Gray oproti tomu kriticky upozorňuje, že ten hlavní evoluční rozdíl „mezi lidmi a&nbsp;ostatními druhy je jednoduše v tom, že člověk dokázal získat ohromnou moc“<sup>22</sup>. Lidstvo si podle něj dokázalo zcela podmanit životní prostředí, zalidnit celou planetu a&nbsp;mít škodlivý vliv na ostatní druhy, z nichž mnohé vinou člověka vymírají.</p>
+<p>Tom Beauchamp v&nbsp;souvislosti s Darwinem poukazuje na to, že máme stejného a velmi blízkého předka jako primáti, což nám dle něj poskytuje dobrý důvod si myslet, že jsme svým evolučním příbuzným bez ohledu na různé odlišnosti velmi podobní. Taktéž poukazuje na to, že „evoluční teorie prosazuje myšlenku progresivního vývoje a kontinuity, nikoliv ostrých zlomů. Pokud by to tak nebylo, většina výzkumu na zvířatech by byla nesmyslná.“<sup>23</sup></p>
+<h3>PRO:</h3>
+<p>Další autoři, kteří hájí pokusy na zvířatech, poukazují na možnost argumentace v jejich prospěch pomocí teologického ospravedlnění – tedy že lidé mají výjimečné schopnosti dané od Boha a nesmrtelnou duši. „Bůh nás stvořil (…) k obrazu svému, a proto na rozdíl od jiných stvoření musíme vybírat mezi dobrem a zlem, mezi správným a špatným.“<sup>24</sup></p>
+<h3>PROTI:</h3>
+<p>Ball a Norris se proti tvrzení, že lidé mají na rozdíl od zvířat nesmrtelnou duši, ohrazují a&nbsp;poukazují na to, že neexistuje způsob, jak dokázat, že ji lidé mají nebo že ji zvířata nemají. Rovněž poukazují na jisté teologické dilema: „vyžadovalo by krutého Boha stvořit bytosti se schopností cítit bolest a touhou žít, pokud by účelem těchto zvířat bylo trpět v&nbsp;rukou člověka“<sup>25</sup>.</p>
+<p>Peter Singer oproti tomu přiznává, že křesťanský výklad, jak jej interpretoval např. sv. Tomáš Akvinský, takové ospravedlnění opravdu nabízí. Uvádí, že pokud jsme kreacionisty, pak dává smysl využívat zvířata pro naše vlastní zájmy. Zároveň však podobně jako Ball a Norris varuje před lpěním na etice, která nemá vědecký základ, a dodává, že „pokud si na druhou stranu myslíme, že měl Darwin pravdu a jsme tady díky neplánovanému procesu evoluce, pak není žádný důvod předpokládat, že by lidské zájmy měly mít vždycky přednost nad zájmy mimolidských zvířat“<sup>26</sup>.</p>
+<h3>PRO:</h3>
+<p>Další argument se otevřeně přiklání k&nbsp;výše zmiňovanému&nbsp;<em>druhismu</em> a říká, že lidé mají na rozdíl od ostatních zvířat práva, protože náleží k druhu <em>Homo sapiens</em>. Proto nemá např. šimpanz stejná práva jako člověk s inteligencí na stejné úrovni.<sup>27</sup></p>
+<h3>PROTI:</h3>
+<p>Dle Thomase sice může existovat nějaká přirozená inklinace či genetická predispozice chránit členy vlastního druhu, ale zároveň tvrdí, že Richard Dawkins ve své knize <em>Sobecký gen</em> uvádí, že <em>druhismus</em> nemá žádný pořádný základ v evoluční biologii. Podobným způsobem můžeme mít jistou inklinaci chránit členy vlastní rasy, nicméně Thomas dodává, že nedává smysl nechat tím určovat svoje etické volby.<sup>19</sup></p>
+<p>Další autoři zase poukazují na to, že pokud morální status definujeme takto geneticky na základě příslušnosti k&nbsp;jednomu živočišnému druhu, vynoří se řada otázek, které tento koncept mohou zpochybnit. „Proč by měla být práva zasloužena výhradně na základě určitého uspořádání genů? Mezi geny, které určují barvu očí apod., který z nich uděluje práva? Pokud by měla být práva založena na genech, proč by měla být hranice vedena na úrovni druhu? Proč tu linii nenakreslit na úrovni rasy, řádu, kmenu nebo říše?“<sup>28</sup> Dle autorů to dává podobný smysl jako udělovat práva na základě pigmentace kůže, což je také určeno geneticky.</p>
+<h2>4. Vyvážení nákladů a přínosů</h2>
+<h3>PRO:</h3>
+<p>Zastánci pokusů argumentují tím, že potenciální lidské utrpení převáží mírné utrpení laboratorních zvířat a že v&nbsp;rámci pokusů dochází k&nbsp;pečlivé cost-benefit analýze. Bateson k&nbsp;otázce predikce těchto benefitů dodává, že se sice těžko přesně odhadují dopředu, nicméně je podle něj třeba důvěřovat kvalitní vědě.<sup>29</sup></p>
+<h3>PROTI:</h3>
+<p>Protistrana oproti tomu tvrdí, že málo pravděpodobné a potenciální benefity mohou jen těžko vyvážit konkrétní skutečnou bolest a smrt mnoha zvířat. Cost-benefit analýza je hodně komplikovaná, protože by měla zohlednit utrpení zvířat. Autoři poukazují na otázky typu, kolik utrpení je ještě přípustné? Jak se liší u jednotlivých druhů? Obtížné je také kvantifikovat potenciální benefity. To je podle Thomase téměř nemožné např. u základního výzkumu, jehož potenciál může ležet daleko v&nbsp;budoucnosti a těžko může vyrovnat aktuálně zakoušené strádání. Na etické otázky podle něj neexistuje jednoduchý vzorec, podle kterého by bylo možno postupovat.<sup>19</sup></p>
+<p>Andrew Knight navíc zpochybňuje, že k&nbsp;nějaké cost-benefit analýze v&nbsp;běžném vědeckém provozu vůbec dochází.<sup>30</sup> Podobně John Gluck a Steven Kubacki tvrdí, že dochází k&nbsp;realizaci obrovského množství studií, které nepřináší žádný jiný užitek než splnění grantů a&nbsp;profesní vzestup jejich autorů. Podle autorů tím vědci reagují na kvantitativní požadavek „publikuj, nebo zemři“, což se projevuje např. tím, že je v&nbsp;biomedicínských časopisech ročně publikován přibližně 1 milion nových článků. Zároveň kriticky dodávají, že „jedna věc je plýtvat svým vlastním časem a časem ostatních vědců, ale jiná věc je plýtvat životy ostatních zvířat“<sup>31</sup>.</p>
+<h2>5. Závažnost prováděných zákroků a legislativní ochrana</h2>
+<h3>PRO:</h3>
+<p>Zastánci pokusů někdy též argumentují tvrzením, že většina zvířat při zákrocích bolest nepociťuje, že je dodržován vysoký standard welfare zvířat a že jsou chráněna zákonem. „Důležitou součástí výzkumu se zvířaty je ujištění, že je s laboratorními zvířaty zacházeno humánně.“<sup>32</sup> Raymond Frey k&nbsp;tomu dodává, že existuje „spousta nemocničních a&nbsp;institucionálních směrnic pro provádění výzkumu na zvířatech a výzkumné protokoly se rutinně zabývají tím, jak může být bolest a utrpení výzkumných zvířat během experimentu kontrolována, omezována, pokud možno zmírněna a ospravedlněna“<sup>33</sup>.</p>
+<h3>PROTI:</h3>
+<p>Oproti tomu Mary T. Phillips poukazuje na to, že jsou zvířata v&nbsp;očích výzkumníků vnímána spíše jako objekty k&nbsp;použití než jako vnímaví jedinci<sup>34</sup>, což pak podle jejího etnografického výzkumu často vede až k&nbsp;rutinnímu přehlížení diskomfortu i bolesti těchto zvířat<sup>35</sup>.</p>
+<p>Ball a Norris poukazují na to, že ačkoli je v&nbsp;legislativě formulována řada tvrzení o&nbsp;welfare a&nbsp;vyvážení zájmů lidí i zvířat, ve skutečnosti tento systém umožňuje i velmi trýznivé pokusy a&nbsp;že „jakékoli zneužívání zvířat je dovoleno, pokud je považováno za ‚nezbytné‘“<sup>36</sup>. Autoři jsou proto skeptičtí k&nbsp;legislativnímu řešení skrze welfaristické reformy (typu 3R) a tvrdí, že „zneužívání zvířat bude pokračovat, dokud současný systém nerozpozná, že mnohá zvířata jsou vědomé, cítící bytosti, jejichž práva nejsou závislá na zájmech lidí“<sup>37</sup>.</p>
+<h3>PRO:</h3>
+<p>Mezi zastánci, např. respondenty mé dizertační práce<sup>1</sup>, dále zaznívá argument, že některá ze zvířat by s&nbsp;pokusy možná sama souhlasila výměnou za teplý pelíšek, stravu a bezpečí od neustálého stresu ve volné přírodě.</p>
+<h3>PROTI:</h3>
+<p>Thomas připouští, že by se snad dalo teoreticky předpokládat, že by v případě mírných procedur jako třeba odebírání vzorku krve zvíře souhlasilo výměnou ze péči, nicméně upozorňuje na skutečnost, že reálné procedury obvykle takto mírné nejsou (jako např. v&nbsp;případě záměrného vzniku rakoviny), nemluvě o stresu z&nbsp;uvěznění v&nbsp;nepřirozených podmínkách. Zároveň dodává, že ač bychom mohli teoreticky usuzovat, že by za určitých podmínek zvíře souhlasilo, ve skutečnosti se tato úvaha – na rozdíl od lidských subjektů – v&nbsp;reálné vědecké praxi vůbec nebere v potaz. „Zákon jednoduše nezajímá, zda by se dalo předpokládat, že zvíře dá svůj souhlas k provedení pokusu.“<sup>38</sup></p>
+<h2>6. Úspěchy pokusů na zvířatech a jejich validita</h2>
+<h3>PRO:</h3>
+<p>Cohen zastává názor, že pokud bychom přijali Reganovu tezi o právech zvířat, „většina úspěšných lékařských terapií, které byly nedávno vynalezeny – antibiotika, vakcíny, protézy a&nbsp;další sloučeniny a nástroje, na kterých nyní závisí záchrana a vylepšování lidských životů a&nbsp;ochrana našich dětí – by nebyla vyvinuta“<sup>39</sup>. Tvrdí, že pokud tuto tezi nyní přijmeme, bude to mít pro budoucí medicínu katastrofální následky. Jennifer Hurley tuto argumentaci obrací přímo proti odpůrcům pokusů, když říká, že „bez lékařských průlomů získaných skrze pokusy na zvířatech by tu mnoho z těch aktivistů, co tak vehementně protestují, nebylo, aby mohlo vyjádřit své názory“<sup>40</sup>. Poukazuje tím na paradox, že tyto názory vyjadřují jen díky těmto pokusům. Epstein obdobně tvrdí, že by „zbytečně trpěly a umíraly miliony lidí, pokud by bylo testování na zvířatech zakázáno“<sup>41</sup>.</p>
+<h3>PROTI:</h3>
+<p>Někteří odpůrci používání zvířat proti legitimizaci současné praxe minulými úspěchy argumentují tím, že pokroky v&nbsp;medicíně přineslo i mnoho pokusů prováděných na lidech, nejčastěji na sirotcích či duševně nemocných či mentálně postižených pacientech, ale přesto tím tuto praxi automaticky nelegitimizujeme<sup>42</sup>.&nbsp;</p>
+<h3>PRO:</h3>
+<p>Zastánci dále tvrdí, že díky experimentování na zvířatech bylo objeveno mnoho léků a terapií na závažné nemoci. „Kromě toho výzkum využívající zvířata vedl k některým z&nbsp;nejdůležitějších lékařských objevů v historii. Výzkum na zvířatech nadále pomáhá lidem i&nbsp;zvířatům žít delší a zdravější životy.“<sup>43</sup> Konkrétně pokusy na zvířatech pomáhají ve výzkumu léků nemocí srdce, cukrovky a obezity, neurologických nemocí jako Alzheimerova či Parkinsonova choroba, rakoviny, infekčních nemocí včetně AIDS a&nbsp;tuberkulózy, zánětlivých střevních nemocí jako Crohnova choroba apod. Zvířata jsou podle <em>American Physiological Society</em> dobrým modelem, pouze je třeba najít ten nejvhodnější. Např. tyto tři konkrétní zvířecí biologické systémy jsou podobné lidským: „imunitní systém myši, kardiovaskulární systém psa a reprodukční systém morčat“<sup>44</sup>. Hurley je zase přesvědčena, „že díky výzkumu se zvířaty bude onemocnění AIDS časem tak vzácné, jako je dnes obrna“<sup>45</sup>.</p>
+<h3>PROTI:</h3>
+<p>Ray a Jean Greekovi na základě své historické analýzy vývoje vakcíny proti vzteklině, inzulinu a&nbsp;penicilinu tvrdí, že u mnoha průlomů nehrály zvířecí modely klíčovou úlohu a&nbsp;vyvozování takových závěrů považují za argumentační klam. Přítomnost zvířecích modelů v&nbsp;některé z&nbsp;vývojových fází v&nbsp;uvedených, ale i mnoha dalších příkladech, podle nich nejen že neznamená, že by k&nbsp;vývoji léčebných postupů nedošlo bez jejich přičinění, ale že tyto modely naopak vedly k&nbsp;zavádějícím závěrům, které výzkum zpomalily. Setrvačnost používání zvířecích modelů při testování léků si vysvětlují finanční motivací a legislativním krytím: „Jelikož jsou studie se zvířaty levnější a stále poskytují právní ochranu v&nbsp;USA i v&nbsp;Evropě, velké farmaceutické společnosti nejsou ochotné rozšířit nákladné klinické testy na takové počty, které by byly potřeba pro zajištění bezpečnosti látek před jejich uvedením na trh“<sup>46</sup>.</p>
+<p>Andrew Knight na základě svého výzkumu rovněž zpochybňuje validitu zvířecích modelů: „Většina systematických posudků publikovaných v&nbsp;recenzovaných vědeckých časopisech odhaluje, že zvířecí modely nejsou dostatečně prediktivní na to, aby poskytly podstatný přínos při vývoji lidských klinických zásahů nebo posouzení toxicity u člověka.“<sup>47</sup> Tvrdí, že používání zvířat zůstává součástí vědy jen z&nbsp;historických a&nbsp;kulturních důvodů.</p>
+<p>Asociace <em>Lékaři proti pokusům na zvířatech Německo</em> dokonce prohlašuje, že v&nbsp;některých oblastech poskytuje lepší výsledky hod mincí<sup>48</sup>.</p>
+<p>Hlavní vědecká kritika se soustředí na nepředvídatelné vlivy laboratorního prostředí a&nbsp;procedur na výsledky pokusů, neshody mezi lidskými nemocemi a zvířecími modely těchto nemocí a mezidruhové rozdíly ve fyziologii a genetice<sup>49</sup>.</p>
+<p>Tým autorů v&nbsp;čele s&nbsp;Christopherem Andereggem rovněž zpochybňuje validitu výsledků, které byly zjištěny s&nbsp;pomocí zvířecích modelů. Jedním z&nbsp;důvodů, které vyjmenovává, je, že už samotné „laboratorní prostředí nevyhnutelně stresuje zvířata a stres ovlivňuje celý organismus změnou pulsu, krevního tlaku, hladiny hormonů, imunologických aktivit a myriády dalších funkcí“<sup>50</sup>. Také poukazuje na to, že se experimentování na zvířatech „soustředí na uměle vytvořenou patologii, zahrnuje matoucí proměnné a zpochybňují jej i&nbsp;rozdíly mezi lidskou a mimolidskou anatomií, fyziologií a patologií, pročež se jedná o&nbsp;inherentně nespolehlivou metodu zkoumání procesů lidských chorob“<sup>51</sup>.</p>
+<p>Jinými slovy jde podle autorů o uměle vyvolané choroby, které mají pouze jména lidských nemocí, ale způsob jejich léčby pak nelze aplikovat na lidské pacienty. Uvádí, že „podle FDA [U.S. Food &amp; Drug Administration] šokujících 92 % léků, které jsou shledány bezpečnými a terapeuticky efektivními v&nbsp;rámci testů se zvířaty, selže během lidských klinických zkoušek kvůli toxicitě nebo neúčinnosti, a nejsou proto schváleny“<sup>52</sup>. U zvířete např. rakovina z&nbsp;cigaretového kouře jen tak nevznikne a azbest je podle těchto testů také zcela bezpečný. Zvířata podle nich nejsou dobrým modelem pro vznik rakoviny kvůli genetickým, molekulárním, imunologickým a buněčným rozdílům mezi lidmi a ostatními druhy<sup>53</sup>. Další příklad využití zvířecích modelů, který nepovažují za šťastný, je ve výzkumu HIV/AIDS. „U primátů bylo úspěšných přes 30 terapeutických vakcín proti HIV/AIDS, ale selhaly při klinických testech na lidech“<sup>54</sup>.</p>
+<p>Kathy Archibald zase poukazuje na to, že „dokonce i příručka Handbook of Laboratory Animal Science přiznává, že ‚nekritické spoléhání se na výsledky testů na zvířatech může být nebezpečně zavádějící a může stát zdraví a životy desítky tisíc lidí.‘“<sup>55</sup>.</p>
+<h3>PRO:</h3>
+<p>Hurley se proti takovým názorům kriticky vyhrazuje a klade si otázku, že pakliže by pokusy na zvířatech nezachraňovaly lidské životy a nebyly důležité pro lékařský pokrok, proč by je někdo dělal? „Žádný vědec, výzkumník nebo lékař si neužívá pokusy na zvířatech, zvláště pokud tyto pokusy zahrnují utrpení. Nicméně výzkum se zvířaty je jediným bezpečným a&nbsp;efektivním způsobem, jak vyvíjet léky a lékařské procedury, které zachraňují nespočet lidských životů“<sup>56</sup>. Rovněž reaguje na námitky některých aktivistů, že většině zkoumaných nemocí lze předejít zdravým životním stylem. To podle Hurley není pravda, protože „prevence hraje v boji s nemocemi jen malou roli, protože mnoho chorob je způsobeno buď genetickými faktory, nebo jejich příčiny zůstávají neznámé“<sup>45</sup>.</p>
+<h2>Shrnutí</h2>
+<p>Jedna z otázek, která se v rámci diskuze nad používáním zvířat na pokusy vyskytuje, se týká problematiky přiznání práv, která by dotčeným jedincům zaručila ochranu před bolestí i&nbsp;ztrátou života. Zatímco zastánci pokusů koncept práv zvířat zcela odmítají z důvodu nižší inteligence nebo morálních vlastností zvířat či účasti v morální komunitě, někteří kritici pokusů tento koncept naopak považují za eticky konzistentní vzhledem k existenci marginálních případů (např. malých dětí nebo mentálně postižených dospělých, kteří mohou mít úroveň inteligence a schopnost morálního uvažování na nižší úrovni než jiné živočišné druhy).</p>
+<p>Pokusy na zvířatech pak někteří z nich přirovnávají k nedobrovolným pokusům na lidech a vyjmutí zvířat z morální komunity považují za neobhajitelné. V&nbsp;diskuzích se rovněž vyskytuje otázka lidské výjimečnosti, která má zvířata z morálních ohledů vyloučit ostrou demarkační linií. Kritici, kteří tento přístup označují jako druhismus (či speciesismus), však tvrdí, že je v rozporu s Darwinovou evoluční teorií, která předpokládá mezidruhovou kontinuitu.</p>
+<p>Další otázkou je problém vyvážení nákladů a přínosů, kdy jedna strana tvrdí, že jsou ztráty na zvířecích životech vyváženy lidským užitkem, zatímco druhá strana namítá, že v&nbsp;reálné praxi k&nbsp;pečlivé cost-benefit analýze nedochází. Diskuze se rovněž dotýká otázek, jak závažné jsou zákroky během pokusů a jak jsou zvířata legislativně chráněna. Poslední zmiňovanou oblastí kontroverze je otázka minulých úspěchů pokusů na zvířatech a&nbsp;jejich vědecká validita. Zatímco zastánci používání zvířat věří, že bez zvířat by nedocházelo k&nbsp;takovému pokroku a že jsou tyto metody vhodné, odpůrci naopak vyjadřují názor, že minulé úspěchy nemohou ospravedlnit současnou praxi, že ke stejným úspěchům mohlo dojít i bez využití zvířat a že existují spolehlivější metody, neboť zvířecí organismus podle nich může reagovat zcela jinak než lidský.</p>
+<p><strong>Text:</strong> Tereza Vandrovcová, <strong>korektura:</strong> Silvestr Vandrovec Špaček, Filip Kostka</p>
+<p>&nbsp;</p>
+<h3 class="zdroje">Zdroje:</h3>
+<p class="zdroje">1) Vandrovcová, T. 2017. <em>Zvířata jako laboratorní objekty: Analýza mocenského diskurzu.</em>&nbsp;Dizertační práce. Univerzita Karlova, Filozofická fakulta, Katedra sociologie. Vedoucí práce Suša, Oleg.</p>
+<p class="zdroje">2) Epstein, A. 2007. „Animal Rights Activists Are Terrorists.“ In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p. 57.</p>
+<p class="zdroje">3) Bateson, P. 2007. „The Moral Deadlock Concerning Animal Experimentation Can Be Broken." In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p. 126.</p>
+<p class="zdroje">4) Cohen, C. 1997. „Do Animals Have Rights?“ <em>Ethics &amp; Behavior</em> 7 (2), p. 95.</p>
+<p class="zdroje">5) Regan, T. 2007. „Animals Have Rights.“ In Haugen, D. M. (ed.)<em> Animal Experimentation</em>, Detroit: Greenhaven Press, p. 24.</p>
+<p class="zdroje">6) Regan, 2007, p. 26.</p>
+<p class="zdroje">7) Regan, T. 1997. „The Rights of Humans and Other Animals.“ <em>Ethics &amp; Behavior</em> 7 (2), p. 105.</p>
+<p class="zdroje">8) Thomas, D. 2007. „Animal Experimentation is Unethical." In Haugen, D. M. (ed.)<em> Animal Experimentation</em>, Detroit: Greenhaven Press, p. 98.</p>
+<p class="zdroje">9) Thomas, 2007, p. 101.</p>
+<p class="zdroje">10) Thomas, 2007, p. 100.</p>
+<p class="zdroje">11) Appleton, J. 2007. „Animals Are Not Equal.“ In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p. 49.</p>
+<p class="zdroje">12) Mercer, I. 2007. „Animals Do Not Have Rights.“ In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p. 32.</p>
+<p class="zdroje">13) Thomas, D. 2007. „Animal Experimentation is Unethical." In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p. 92.</p>
+<p class="zdroje">14)&nbsp;Regan, T. 2007. „Animals Have Rights.“ In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p. 28.</p>
+<p class="zdroje">15) Mercer, I. 2007. „Animals Do Not Have Rights.“ In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p. 33.</p>
+<p class="zdroje">16) Ball, M., Norris, J. 2007. „Animals Are Equal to Humans.“ In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p. 37.</p>
+<p class="zdroje">17) Cohen, C. 1997. „Do Animals Have Rights?“ <em>Ethics &amp; Behavior</em> 7 (2), p. 97.</p>
+<p class="zdroje">18) Cohen, 1997, p. 94.</p>
+<p class="zdroje">19)&nbsp;Thomas, D. 2007. „Animal Experimentation is Unethical." In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, 82-101.</p>
+<p class="zdroje">20)&nbsp;Appleton, J. 2007. „Animals Are Not Equal.“ In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p. 52.</p>
+<p class="zdroje">21) Appleton, 2007, p. 51.</p>
+<p class="zdroje">22) Gray, J. 2007. „Using primates in medical experimentation is unjustifiable.“ In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p. 116.</p>
+<p class="zdroje">23) Beauchamp, T. L. 1997. „Opposing Views on Animal Experimentation: Do Animals Have Rights?“ <em>Ethics &amp; Behavior</em> 7 (2), p. 121.</p>
+<p class="zdroje">24) Cohen, C. 1997. „Do Animals Have Rights?“ <em>Ethics &amp; Behavior</em> 7 (2), p. 96.</p>
+<p class="zdroje">25) Ball, M., Norris, J. 2007. „Animals Are Equal to Humans.“ In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p. 39.</p>
+<p class="zdroje">26) Singer, P. 2007. „The Animal Experimentation Debate Has Reached a Moral Deadlock.“ In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p. 120.</p>
+<p class="zdroje">27) Appleton, 2007.</p>
+<p class="zdroje">28) Ball, M., Norris, J. 2007. „Animals Are Equal to Humans.“ In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p. 38.</p>
+<p class="zdroje">29) Bateson, P. 2007. „The Moral Deadlock Concerning Animal Experimentation Can Be Broken." In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p. 131.</p>
+<p class="zdroje">30) Knight, A. 2011. <em>The Costs and Benefits of Animal Experiments</em>. Hampshire, UK: Palgrave Macmillan.</p>
+<p class="zdroje">31) Gluck, J. P., Kubacki, S. 1991. „Animals in Biomedical Research: The Undermining Effect of the Rhetoric of the Besieged.“ <em>Ethics &amp; Behavior</em> 1 (3), p. 166.</p>
+<p class="zdroje">32) American Physiological Society (APS). 2007. „Animal Experimentation Is Vital to Medical Research.“ In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p. 143.</p>
+<p class="zdroje">33) Frey, R. G. 1997. „Moral Community and Animal Research in Medicine.“ <em>Ethics &amp; Behavior</em> 7 (2), p. 128.</p>
+<p class="zdroje">34) Phillips, M. T. 1994. „Proper names and the social construction of biography: The negative case of laboratory animals.“ <em>Qualitative Sociology</em> 17, 119-142.</p>
+<p class="zdroje">35) Phillips, M. T. 1993. „Savages, drunks, and lab animals: The researcher's perception of pain.“ <em>Society and Animals</em> 1 (1), 61-81.</p>
+<p class="zdroje">36) Ball, M., Norris, J. 2007. „Animals Are Equal to Humans.“ In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p. 41.</p>
+<p class="zdroje">37) Ball, Norris, 2007, p. 42.</p>
+<p class="zdroje">38) Thomas, D. 2007. „Animal Experimentation is Unethical." In Haugen, D. M. (ed.)<em> Animal Experimentation</em>, Detroit: Greenhaven Press, p. 97.</p>
+<p class="zdroje">39) Cohen, C. 1997. „Do Animals Have Rights?“ <em>Ethics &amp; Behavior</em> 7 (2), p. 97.</p>
+<p class="zdroje">40) Hurley, J. A. 2007. „Drug Testing on Animals Is Beneficial.“ In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, 152-156.</p>
+<p class="zdroje">41) Epstein, A. 2007. „Animal Rights Activists Are Terrorists.“ In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p. 56.</p>
+<p class="zdroje">42) Newkirk. I. E. 2004. „Brueghel’s Two Monkeys.“ <em>ATLA: Alternatives to Laboratory Animals</em> 32 (Sup.1), 747-752.</p>
+<p class="zdroje">43) American Physiological Society (APS). 2007. „Animal Experimentation Is Vital to Medical Research.“ In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p. 139.</p>
+<p class="zdroje">44) American Physiological Society (APS), 2007, p. 140.</p>
+<p class="zdroje">45) Hurley, J. A. 2007. „Drug Testing on Animals Is Beneficial.“ In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p 154.</p>
+<p class="zdroje">46) Greek, R., Greek, J. S. 2004. „Are animals necessary in 2002? Reply to Dr Michael Festing's book review of Sacred Cows and Golden Geese: the Human Cost of Experiments on Animals.“ <em>ATLA: Alternatives to Laboratory Animals</em> 32 (Sup.1), p. 746.</p>
+<p class="zdroje">47) Knight, A. 2011. <em>The Costs and Benefits of Animal Experiments</em>. Hampshire, UK: Palgrave Macmillan, p. 183.</p>
+<p class="zdroje">48) Doctors Against Animal Experiments Germany. 2015. <em>Why animal experiments are not necessary</em>. Dostupné z: <a href="https://www.aerzte-gegen-tierversuche.de/en/resources/46-why-animal-experiments-are-not-necessary"></a><a href="https://www.aerzte-gegen-tierversuche.de/en/resources/46-why-animal-experiments-are-not-necessary">https://www.aerzte-gegen-tierversuche.de/en/resources/46-why-animal-experiments-are-not-necessary</a> (staženo 1. 11. 2022).</p>
+<p class="zdroje">49) Linzey, A., Linzey, C. (eds.). 2015. <em>Normalising the Unthinkable: The Ethics of Using Animals in Research. </em>Oxford: Oxford Centre for Animal Ethics, pp. 19-20.</p>
+<p class="zdroje">50) Anderegg, Ch., Archibald, K., Bailey, J., Cohen, M. J., Kaufman, S. R., Pippin, J. J. 2006. <em>A Critical Look at Animal Experimentation</em>. Cleveland, OH: Medical Research Modernization Committee, p. 9.</p>
+<p class="zdroje">51) Anderegg et al., 2006, p. 22.</p>
+<p class="zdroje">52) Anderegg et al., 2006, p. 12.</p>
+<p class="zdroje">53) Anderegg et al., 2006, p. 3.</p>
+<p class="zdroje">54) Anderegg et al., 2006, p. 5.</p>
+<p class="zdroje">55) Archibald, K. 2005. „Animal Testing: Sciencee or Fiction?“ <em>Ecologist</em> 35 (4), p. 15.</p>
+<p class="zdroje">56) Hurley, J. A. 2007. „Drug Testing on Animals Is Beneficial.“ In Haugen, D. M. (ed.) <em>Animal Experimentation</em>, Detroit: Greenhaven Press, p 153.</p>			</div>
+								</div>
+	</div>
+
+	<div class="jumbotron jumbotron-fluid bg-light text-center mt-1">
+		<div class="container">
+			<p class="lead">Líbil se vám článek? Sdílejte! <svg style="width: 22px; height: 22px; margin-bottom: -3px; fill: #f3852e;"><use xlink:href="/templates/pb_soucitne/fonts/icons-2.svg#heart-o"></use></svg></p>
+			<div class="mr-auto ml-auto mt-3 align-self-center d-inline-block">
+				<button type="button" data-title="Zkopírováno" data-trigger="manual" class="btn clipboard btn-light btl-large border rounded-0 float-right ml-2" style="height:45px;" data-clipboard-text="https://soucitne.cz/novinky/argumenty-pro-a-proti-pouzivani-zvirat-ve-vyzkumu"><svg style="width: 18px; height: 18px; margin-bottom: -3px; fill: #656565; margin-right:1px;"><use xlink:href="/templates/pb_soucitne/fonts/icons-2.svg#copy"></use></svg> Zkopírovat odkaz na článek</button>
+				<div class="article-social-share">
+	<div class="social-share-icon">
+		<ul>
+											<li>
+					<a class="facebook" onClick="window.open('https://www.facebook.com/sharer.php?u=https://soucitne.cz/novinky/argumenty-pro-a-proti-pouzivani-zvirat-ve-vyzkumu','Facebook','width=600,height=300,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-150)+''); return false;" href="https://www.facebook.com/sharer.php?u=https://soucitne.cz/novinky/argumenty-pro-a-proti-pouzivani-zvirat-ve-vyzkumu" title="Facebook">
+						<svg style="width: 22px; height: 22px; margin-bottom: -2px; fill: #fff;"><use xlink:href="/templates/pb_soucitne/fonts/icons-1.svg#facebook-f"></use></svg>
+					</a>
+				</li>
+																											<li>
+					<a class="twitter" title="Twitter" onClick="window.open('https://twitter.com/share?url=https://soucitne.cz/novinky/argumenty-pro-a-proti-pouzivani-zvirat-ve-vyzkumu&amp;text=Argumenty%20pro%20a%20proti%20používání%20zvířat%20ve%20výzkumu','Twitter share','width=600,height=300,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-150)+''); return false;" href="https://twitter.com/share?url=https://soucitne.cz/novinky/argumenty-pro-a-proti-pouzivani-zvirat-ve-vyzkumu&amp;text=Argumenty%20pro%20a%20proti%20používání%20zvířat%20ve%20výzkumu">
+					<svg style="width: 22px; height: 22px; margin-bottom: -2px; fill: #fff;"><use xlink:href="/templates/pb_soucitne/fonts/icons-2.svg#twitter"></use></svg>
+					</a>
+				</li>
+																												<li>
+						<a class="linkedin" title="LinkedIn" onClick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://soucitne.cz/novinky/argumenty-pro-a-proti-pouzivani-zvirat-ve-vyzkumu','Linkedin','width=585,height=666,left='+(screen.availWidth/2-292)+',top='+(screen.availHeight/2-333)+''); return false;" href="https://www.linkedin.com/shareArticle?mini=true&url=https://soucitne.cz/novinky/argumenty-pro-a-proti-pouzivani-zvirat-ve-vyzkumu" >
+						<svg style="width: 22px; height: 22px; margin-bottom: -2px; fill: #fff;"><use xlink:href="/templates/pb_soucitne/fonts/icons-2.svg#linkedin-in"></use></svg>
+						</a>
+					</li>
+										</ul>
+		</div>
+	</div>
+			</div>
+		</div>
+	</div>
+<script src="/templates/pb_soucitne/js/clipboard.min.js" defer onload="clip();"></script>
+<script>
+function clip(){
+	var clipboard = new ClipboardJS('.clipboard');
+	clipboard.on('success', function(e) {
+	    console.info('Action:', e.action);
+			jQuery('.clipboard').tooltip("show");
+			setTimeout(function(){jQuery('.clipboard').tooltip("hide");},2000);
+	});
+};
+</script>
+
+
+	
+						
+			
+			<div class="article-print-email mt-3 mb-3">
+									<a href="/novinky/argumenty-pro-a-proti-pouzivani-zvirat-ve-vyzkumu?tmpl=component&amp;print=1&amp;layout=default" title="Vytisknou články < Argumenty pro a proti používání zvířat ve výzkumu >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="btn btn-outline-secondary btn-sm">
+<svg ><use xlink:href="/templates/pb_soucitne/fonts/icons-2.svg#print"></use></svg>
+	Vytisknout</span>
+</a>&nbsp;
+				
+							</div>
+			<hr>
+			
+					
+	<h3 class="text-center pt-2">Podpořte Soucitně</H3>
+	<div data-darujme-widget-token="1t6alkjpftlf3n6j">&nbsp;</div>
+	<script type="text/javascript">
+		+function(w, d, s, u, a, b) {
+			w['DarujmeObject'] = u;
+			w[u] = w[u] || function () { (w[u].q = w[u].q || []).push(arguments) };
+			a = d.createElement(s); b = d.getElementsByTagName(s)[0];
+			a.async = 1; a.src = "https:\/\/www.darujme.cz\/assets\/scripts\/widget.js";
+			b.parentNode.insertBefore(a, b);
+		}(window, document, 'script', 'Darujme');
+		Darujme(1, "1t6alkjpftlf3n6j", 'render', "https:\/\/www.darujme.cz\/widget?token=1t6alkjpftlf3n6j", "100%");
+	</script>
+
+	
+
+	
+				</div>
+
+
+<div class="related-article-list-container">
+    <h3 class="related-article-title"> Související články </h3>
+     
+    <div class="article-list related-article-list">
+        <div class="row">
+             
+                <div class="col-md-4 mb-3">            
+                <div class="article bg-white">
+ 			<a href="/novinky/videl-jsem-te-v-tvych-poslednich-chvilich-a-neudelal-nic">
+					<div class="article-intro-image">
+				<img class="jch-lazyload" loading="lazy" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjQiIGhlaWdodD0iMjA1Ij48L3N2Zz4=" data-src="/images/2025/06/30/krava-obet-jatka-foto-lukas-vincour_medium.jpg" alt="Viděl jsem tě v tvých posledních chvílích a neudělal nic" width="364" height="205" /><noscript><img loading="lazy" src="/images/2025/06/30/krava-obet-jatka-foto-lukas-vincour_medium.jpg" alt="Viděl jsem tě v tvých posledních chvílích a neudělal nic" width="364" height="205" /></noscript>
+			</div>
+				</a>
+	
+<div class="article-info">
+                        <H6 class='related-title'>
+    <a href="/novinky/videl-jsem-te-v-tvych-poslednich-chvilich-a-neudelal-nic">
+						Viděl jsem tě v tvých posledních chvílích a neudělal nic					</a></h6>
+
+    <p class='related-introtext'>Osobní zpověď veganského aktivisty Tima Hobbse.
+Když jsem poprvé viděl Sonitu (2015), můj nejoblíbenější dokument, ta...</p>
+                                    <span class="published" title="Zveřejněno: 1. červenec 2025">
+	<time datetime="2025-07-01T08:43:45+02:00">
+		1. červenec 2025	</time>
+</span>
+                </div>        
+
+</div>                </div>
+             
+                <div class="col-md-4 mb-3">            
+                <div class="article bg-white">
+ 			<a href="/novinky/problem-maleho-tela-vyzvy-a-uvahy-pro-ochrance-zvirat">
+					<div class="article-intro-image">
+				<img class="jch-lazyload" loading="lazy" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjQiIGhlaWdodD0iMjA1Ij48L3N2Zz4=" data-src="/images/2025/04/11/ChatGPT%20Image%2011.%204.%202025%2015_54_34_medium.png" alt="Problém malého těla: Výzvy a úvahy pro ochránce zvířat" width="364" height="205" /><noscript><img loading="lazy" src="/images/2025/04/11/ChatGPT%20Image%2011.%204.%202025%2015_54_34_medium.png" alt="Problém malého těla: Výzvy a úvahy pro ochránce zvířat" width="364" height="205" /></noscript>
+			</div>
+				</a>
+	
+<div class="article-info">
+                        <H6 class='related-title'>
+    <a href="/novinky/problem-maleho-tela-vyzvy-a-uvahy-pro-ochrance-zvirat">
+						Problém malého těla: Výzvy a úvahy pro ochránce zvířat					</a></h6>
+
+    <p class='related-introtext'>„Pro ty, kterým není lhostejné utrpení zvířat, je problém malého těla zásadní. Ve srovnání s většími hospodářs...</p>
+                                    <span class="published" title="Zveřejněno: 11. duben 2025">
+	<time datetime="2025-04-11T10:26:02+02:00">
+		11. duben 2025	</time>
+</span>
+                </div>        
+
+</div>                </div>
+             
+                <div class="col-md-4 mb-3">            
+                <div class="article bg-white">
+ 			<a href="/novinky/truchleni-nad-utracenymi-zviraty-s-rizkem-u-pusy">
+					<div class="article-intro-image">
+				<img class="jch-lazyload" loading="lazy" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjQiIGhlaWdodD0iMjA1Ij48L3N2Zz4=" data-src="/images/2025/04/08/ChatGPT%20Image%208.%204.%202025%2018_13_301_medium.png" alt="Truchlení nad utracenými zvířaty s řízkem u pusy" width="364" height="205" /><noscript><img loading="lazy" src="/images/2025/04/08/ChatGPT%20Image%208.%204.%202025%2018_13_301_medium.png" alt="Truchlení nad utracenými zvířaty s řízkem u pusy" width="364" height="205" /></noscript>
+			</div>
+				</a>
+	
+<div class="article-info">
+                        <H6 class='related-title'>
+    <a href="/novinky/truchleni-nad-utracenymi-zviraty-s-rizkem-u-pusy">
+						Truchlení nad utracenými zvířaty s řízkem u pusy					</a></h6>
+
+    <p class='related-introtext'>Masové vybíjení zvířat kvůli slintavce a kulhavce vyvolalo vlnu soucitu. Ale kde je tento soucit, když stejná zvířata ko...</p>
+                                    <span class="published" title="Zveřejněno: 8. duben 2025">
+	<time datetime="2025-04-08T18:19:05+02:00">
+		8. duben 2025	</time>
+</span>
+                </div>        
+
+</div>                </div>
+                    </div>
+    </div>
+        </div>
+<script>
+
+function waitForFbq(callback){
+	if(typeof fbq !== 'undefined'){
+		callback()
+	} else {
+		setTimeout(function () {
+			waitForFbq(callback)
+		}, 100)
+	}
+}
+waitForFbq(function () {
+	fbq('track', 'ViewContent', {
+		content_type: 'article',
+	});
+});
+
+
+</script></div></main><aside id="sp-right" class="col-lg-3 "><div class="sp-column "><div class="sp-module "><h3 class="sp-module-title">Kalendář akcí</h3><div class="sp-module-content"><div class="kalendar latestnews">
+
+
+<div class="kalendar-item mb-1">
+	<small>28. 2. 2026, 15:46 (do 8. 03.)</small>
+	<h5 class=""><a class="kalendar" href="/kalendar-akci/veganfest-2026">VeganFest 2026</a></h5>
+	<small class="text-uppercase font-weight-light">Festivaly</small>
+	</div>
+
+	
+<div class="kalendar-item mb-1">
+	<small>6. 6. 2026, 11:00</small>
+	<h5 class=""><a class="kalendar" href="/kalendar-akci/veganske-hody-2026-praha">Veganské hody 2026 (Praha)</a></h5>
+	<small class="text-uppercase font-weight-light">Festivaly</small>
+	</div>
+
+	
+<a class="btn btn-secondary btn-sm mt-1 btn-block" href="/veganstvi/zajimavosti/kalendar-akci">Všechny akce</a>
+<a class="btn btn-outline-secondary btn-sm mt-1 btn-block" href="/veganstvi/zajimavosti/pridat-udalost"><svg><use xlink:href="/templates/pb_soucitne/fonts/icons-1.svg#plus"></use></svg> Přidat akci</a>
+
+</div>
+
+</div></div><div class="sp-module "><h3 class="sp-module-title">Čtěte také</h3><div class="sp-module-content"><ul class="category-module mod-list">
+							<li class="shadow p-3 mb-3 bg-white">
+								<a class="dalsi-clanky-img" href="/novinky/jedeni-brouku-vs-veganstvi" alt="Jedení brouků vs. veganství">
+				<picture> 
+					<source media="(min-width: 1200px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/04/23/468218995_d64748f254_k.jpg?w=255&h=144&force_format=webp&q=80" type="image/webp">
+					<source media="(min-width: 992px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/04/23/468218995_d64748f254_k.jpg?w=210&h=119&force_format=webp&q=80" type="image/webp">
+					<source media="(min-width: 768px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/04/23/468218995_d64748f254_k.jpg?w=690&h=388&force_format=webp&q=80" type="image/webp">
+					<source media="(max-width: 767px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/04/23/468218995_d64748f254_k.jpg?w=510&h=281&force_format=webp&q=80" type="image/webp">
+
+					<source media="(min-width: 1200px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/04/23/468218995_d64748f254_k.jpg?w=255&h=144&force_format=jpeg&q=80" type="image/jpeg">
+					<source media="(min-width: 992px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/04/23/468218995_d64748f254_k.jpg?w=210&h=119&force_format=jpeg&q=80" type="image/jpeg">
+					<source media="(min-width: 768px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/04/23/468218995_d64748f254_k.jpg?w=690&h=388&force_format=jpeg&q=80" type="image/jpeg">
+					<source media="(max-width: 767px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/04/23/468218995_d64748f254_k.jpg?w=510&h=281&force_format=jpeg&q=80" type="image/jpeg">
+	
+					<img class="jch-lazyload" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-src="/images/2025/04/23/468218995_d64748f254_k_large.jpg" alt="Jedení brouků vs. veganství" width="765" height="510" />
+
+				</picture>
+				</a>
+													<a class="mod-articles-category-title " href="/novinky/jedeni-brouku-vs-veganstvi">Jedení brouků vs. veganství</a>
+				
+				
+				
+				
+				
+				
+				
+							</li>
+							<li class="shadow p-3 mb-3 bg-white">
+								<a class="dalsi-clanky-img" href="/novinky/videl-jsem-te-v-tvych-poslednich-chvilich-a-neudelal-nic" alt="Viděl jsem tě v tvých posledních chvílích a neudělal nic">
+				<picture> 
+					<source media="(min-width: 1200px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/06/30/krava-obet-jatka-foto-lukas-vincour.jpg?w=255&h=144&force_format=webp&q=80" type="image/webp">
+					<source media="(min-width: 992px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/06/30/krava-obet-jatka-foto-lukas-vincour.jpg?w=210&h=119&force_format=webp&q=80" type="image/webp">
+					<source media="(min-width: 768px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/06/30/krava-obet-jatka-foto-lukas-vincour.jpg?w=690&h=388&force_format=webp&q=80" type="image/webp">
+					<source media="(max-width: 767px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/06/30/krava-obet-jatka-foto-lukas-vincour.jpg?w=510&h=281&force_format=webp&q=80" type="image/webp">
+
+					<source media="(min-width: 1200px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/06/30/krava-obet-jatka-foto-lukas-vincour.jpg?w=255&h=144&force_format=jpeg&q=80" type="image/jpeg">
+					<source media="(min-width: 992px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/06/30/krava-obet-jatka-foto-lukas-vincour.jpg?w=210&h=119&force_format=jpeg&q=80" type="image/jpeg">
+					<source media="(min-width: 768px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/06/30/krava-obet-jatka-foto-lukas-vincour.jpg?w=690&h=388&force_format=jpeg&q=80" type="image/jpeg">
+					<source media="(max-width: 767px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/06/30/krava-obet-jatka-foto-lukas-vincour.jpg?w=510&h=281&force_format=jpeg&q=80" type="image/jpeg">
+	
+					<img class="jch-lazyload" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-src="/images/2025/06/30/krava-obet-jatka-foto-lukas-vincour_large.jpg" alt="Viděl jsem tě v tvých posledních chvílích a neudělal nic" width="765" height="510" />
+
+				</picture>
+				</a>
+													<a class="mod-articles-category-title " href="/novinky/videl-jsem-te-v-tvych-poslednich-chvilich-a-neudelal-nic">Viděl jsem tě v tvých posledních chvílích a neudělal nic</a>
+				
+				
+				
+				
+				
+				
+				
+							</li>
+							<li class="shadow p-3 mb-3 bg-white">
+								<a class="dalsi-clanky-img" href="/novinky/argumenty-ve-prospech-jezeni-masa-jsou-predvidatelne-a-spatne" alt="Argumenty ve prospěch jezení masa jsou předvídatelné a špatné">
+				<picture> 
+					<source media="(min-width: 1200px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/06/03/ChatGPT /Image /3. /6. /2025 /17_13_17.png?w=255&h=144&force_format=webp&q=80" type="image/webp">
+					<source media="(min-width: 992px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/06/03/ChatGPT /Image /3. /6. /2025 /17_13_17.png?w=210&h=119&force_format=webp&q=80" type="image/webp">
+					<source media="(min-width: 768px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/06/03/ChatGPT /Image /3. /6. /2025 /17_13_17.png?w=690&h=388&force_format=webp&q=80" type="image/webp">
+					<source media="(max-width: 767px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/06/03/ChatGPT /Image /3. /6. /2025 /17_13_17.png?w=510&h=281&force_format=webp&q=80" type="image/webp">
+
+					<source media="(min-width: 1200px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/06/03/ChatGPT /Image /3. /6. /2025 /17_13_17.png?w=255&h=144&force_format=jpeg&q=80" type="image/jpeg">
+					<source media="(min-width: 992px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/06/03/ChatGPT /Image /3. /6. /2025 /17_13_17.png?w=210&h=119&force_format=jpeg&q=80" type="image/jpeg">
+					<source media="(min-width: 768px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/06/03/ChatGPT /Image /3. /6. /2025 /17_13_17.png?w=690&h=388&force_format=jpeg&q=80" type="image/jpeg">
+					<source media="(max-width: 767px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2025/06/03/ChatGPT /Image /3. /6. /2025 /17_13_17.png?w=510&h=281&force_format=jpeg&q=80" type="image/jpeg">
+	
+					<img class="jch-lazyload" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjUiIGhlaWdodD0iNTEwIj48L3N2Zz4=" data-src="/images/2025/06/03/ChatGPT%20Image%203.%206.%202025%2017_13_17_large.png" alt="Argumenty ve prospěch jezení masa jsou předvídatelné a špatné" width="765" height="510" />
+
+				</picture>
+				</a>
+													<a class="mod-articles-category-title " href="/novinky/argumenty-ve-prospech-jezeni-masa-jsou-predvidatelne-a-spatne">Argumenty ve prospěch jezení masa jsou předvídatelné a špatné</a>
+				
+				
+				
+				
+				
+				
+				
+							</li>
+		
+</ul>
+</div></div><div class="sp-module "><h3 class="sp-module-title">Náhodný citát</h3><div class="sp-module-content"><div class="bg-white p-3 shadow bg-white latestnews">
+
+
+	<a class="nahodny-citat-img" href="/veganstvi/zajimavosti/citaty/koya-webb">
+	<picture>
+		<source media="(min-width: 1200px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjQiIGhlaWdodD0iMjA1Ij48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2020/02/26/2890744_koya-webb_1.jpeg?w=223&h=223&force_format=webp&q=80&gravity=auto" type="image/webp">
+		<source media="(min-width: 992px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjQiIGhlaWdodD0iMjA1Ij48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2020/02/26/2890744_koya-webb_1.jpeg?w=178&h=178&force_format=webp&q=80&gravity=auto" type="image/webp">
+		<source media="(min-width: 768px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjQiIGhlaWdodD0iMjA1Ij48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2020/02/26/2890744_koya-webb_1.jpeg?w=658&h=370&force_format=webp&q=80&gravity=auto" type="image/webp">
+		<source media="(max-width: 767px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjQiIGhlaWdodD0iMjA1Ij48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2020/02/26/2890744_koya-webb_1.jpeg?w=478&h=270&force_format=webp&q=80&gravity=auto" type="image/webp">
+
+		<source media="(min-width: 1200px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjQiIGhlaWdodD0iMjA1Ij48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2020/02/26/2890744_koya-webb_1.jpeg?w=223&h=223&force_format=jpeg&q=80&func=face" type="image/jpeg">
+		<source media="(min-width: 992px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjQiIGhlaWdodD0iMjA1Ij48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2020/02/26/2890744_koya-webb_1.jpeg?w=178&h=178&force_format=jpeg&q=80&func=face" type="image/jpeg">
+		<source media="(min-width: 768px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjQiIGhlaWdodD0iMjA1Ij48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2020/02/26/2890744_koya-webb_1.jpeg?w=658&h=370&force_format=jpeg&q=80&func=face" type="image/jpeg">
+		<source media="(max-width: 767px)" srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjQiIGhlaWdodD0iMjA1Ij48L3N2Zz4=" data-srcset="https://image.soucitne.cz/tr/images/2020/02/26/2890744_koya-webb_1.jpeg?w=478&h=270&force_format=jpeg&q=80&func=face" type="image/jpeg">
+
+		<img class="mb-3 jch-lazyload" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjQiIGhlaWdodD0iMjA1Ij48L3N2Zz4=" data-src="/images/2020/02/26/2890744_koya-webb_1_medium.jpeg" alt="Koya Webb" width="364" height="205" />
+	</picture>
+
+	</a>
+
+	<p class="nahodny-citat">Miluji energii, kterou mi vegan strava dává, tu vůni ovoce i zeleniny.
+</p>
+	<p class="text-right font-italic">— <small><a href="/veganstvi/zajimavosti/citaty/koya-webb">Koya Webb</a></small></p>
+
+</div>
+</div></div></div></aside></div></div></div></section><section id="sp-spodni"><div class="container"><div class="container-inner"><div class="row"><div id="sp-spodni" class="col-lg-12 "><div class="sp-column "><div class="sp-module "><div class="sp-module-content">
+<ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb">
+			<li class="float-left">
+			Jste zde: &#160;
+		</li>
+	
+				<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-item"><a itemprop="item" href="/novinky" class="pathway"><span itemprop="name">Novinky</span></a>				<meta itemprop="position" content="1">
+			</li>
+					<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-item active"><span itemprop="name">Argumenty pro a proti používání zvířat ve výzkumu</span>				<meta itemprop="position" content="2">
+			</li>
+		</ol>
+</div></div></div></div></div></div></div></section><section id="sp-bottom"class="bottom"><div class="row"><div id="sp-bottom1" class="col-sm-col-sm-6 col-lg-2 "><div class="sp-column "><div class="sp-module "><h3 class="sp-module-title">Před jídlem</h3><div class="sp-module-content"><ul class="menu">
+<li class="item-123"><a href="/recepty/pred-jidlem/polevky" >Polévky</a></li></ul>
+</div></div><div class="sp-module "><h3 class="sp-module-title">Hlavní jídla</h3><div class="sp-module-content"><ul class="menu">
+<li class="item-131"><a href="/recepty/hlavni-jidla/arabska-a-indicka-jidla" >Arabská a indická jídla</a></li><li class="item-132"><a href="/recepty/hlavni-jidla/houbova-jidla" >Houbová jídla</a></li><li class="item-133"><a href="/recepty/hlavni-jidla/italska-jidla-testoviny" >Italská jídla, těstoviny</a></li><li class="item-134"><a href="/recepty/hlavni-jidla/ke-knedlikum" >Ke knedlíkům</a></li><li class="item-135"><a href="/recepty/hlavni-jidla/lusteniny" >Luštěniny</a></li><li class="item-136"><a href="/recepty/hlavni-jidla/mexicka-a-spanelska-jidla" >Mexická a španělská jídla</a></li><li class="item-137"><a href="/recepty/hlavni-jidla/tofu-soja-apod" >Tofu, soja apod.</a></li><li class="item-138"><a href="/recepty/hlavni-jidla/zeleniny" >Zeleniny</a></li></ul>
+</div></div></div></div><div id="sp-bottom2" class="col-sm-col-sm-6 col-lg-2 "><div class="sp-column "><div class="sp-module "><h3 class="sp-module-title">Po jídle či k jídlu</h3><div class="sp-module-content"><ul class="menu">
+<li class="item-124"><a href="/recepty/po-jidle-ci-k-jidlu/prilohy" >Přílohy</a></li><li class="item-125"><a href="/recepty/po-jidle-ci-k-jidlu/salaty" >Saláty</a></li></ul>
+</div></div><div class="sp-module "><h3 class="sp-module-title">Chuťovky a dobroty</h3><div class="sp-module-content"><ul class="menu">
+<li class="item-126"><a href="/recepty/chutovky-a-dobroty/pomazanky" >Pomazánky</a></li><li class="item-127"><a href="/recepty/chutovky-a-dobroty/sladka-jidla" >Sladká jídla</a></li><li class="item-128"><a href="/recepty/chutovky-a-dobroty/cukrovi" >Cukroví</a></li><li class="item-129"><a href="/recepty/chutovky-a-dobroty/vanoce" >Vánoce</a></li><li class="item-130"><a href="/recepty/chutovky-a-dobroty/pochoutky" >Pochoutky</a></li></ul>
+</div></div></div></div><div id="sp-bottom3" class="col-lg-2 "><div class="sp-column "><div class="sp-module "><h3 class="sp-module-title">Témata</h3><div class="sp-module-content"><ul class="menu">
+<li class="item-166"><a href="/veganstvi/temata/ekologie" >Ekologie</a></li><li class="item-194"><a href="/veganstvi/temata/etika" >Etika</a></li><li class="item-162"><a href="/veganstvi/temata/zdravi" >Zdraví</a></li><li class="item-163"><a href="/veganstvi/temata/aktivismus" >Aktivismus</a></li><li class="item-164"><a href="/veganstvi/temata/osobnosti" >Osobnosti</a></li><li class="item-165"><a href="/veganstvi/temata/deti" >Děti</a></li><li class="item-168"><a href="/veganstvi/temata/azyly" >Azyly</a></li><li class="item-269"><a href="/veganstvi/temata/rozhovory" >Rozhovory</a></li></ul>
+</div></div></div></div><div id="sp-bottom4" class="col-lg-2 "><div class="sp-column "><div class="sp-module "><h3 class="sp-module-title">Zajímavosti</h3><div class="sp-module-content"><ul class="menu">
+<li class="item-169"><a href="/veganstvi/zajimavosti/kalendar-akci" >Kalendář akcí</a></li><li class="item-170"><a href="/veganstvi/zajimavosti/pridat-udalost" >Přidat událost</a></li><li class="item-171"><a href="/veganstvi/zajimavosti/slavni-vegani-a-vegetariani" >Slavní vegani a vegetariáni</a></li><li class="item-172"><a href="/veganstvi/zajimavosti/citaty" >Citáty</a></li><li class="item-173"><a href="/veganstvi/zajimavosti/videa" >Videa</a></li><li class="item-174"><a href="/veganstvi/zajimavosti/vyznamne-dny" >Významné dny</a></li><li class="item-175"><a href="/veganstvi/zajimavosti/certifikaty" >Certifikáty</a></li></ul>
+</div></div></div></div><div id="sp-bottom5" class="col-lg-2 "><div class="sp-column "><div class="sp-module "><h3 class="sp-module-title">Praktické informace</h3><div class="sp-module-content"><ul class="menu">
+<li class="item-353"><a href="/co-je-veganstvi" >Co je veganství</a></li><li class="item-176"><a href="/veganstvi/prakticke-informace/jak-se-stat-veganem" >Jak se stát veganem? </a></li><li class="item-177"><a href="/veganstvi/prakticke-informace/casto-kladene-otazky-o-veganstvi-faq" >Často kladené otázky o veganství (FAQ)</a></li><li class="item-178"><a href="/veganstvi/prakticke-informace/argumenty-a-odpovedi" >Argumenty a odpovědi</a></li><li class="item-179"><a href="/veganstvi/prakticke-informace/zaklady-veganske-vyzivy" >Základy veganské výživy</a></li><li class="item-180"><a href="/veganstvi/prakticke-informace/ziviny-a-jejich-zdroje" >Živiny a jejich zdroje</a></li><li class="item-181"><a href="/veganstvi/prakticke-informace/10-instituci-schvaluje-veganstvi" >10 institucí schvaluje veganství</a></li><li class="item-182"><a href="/veganstvi/prakticke-informace/vegani-na-cestach" >Vegani na cestách</a></li><li class="item-218"><a href="/veganstvi/prakticke-informace/seznam-ecek-v-potravinach" >Seznam éček v potravinách</a></li><li class="item-327"><a href="/vegan-catering" >Veganské cateringy</a></li></ul>
+</div></div></div></div><div id="sp-bottom6" class="col-lg-2 "><div class="sp-column "><div class="sp-module "><h3 class="sp-module-title">Soucitně</h3><div class="sp-module-content"><ul class="menu">
+<li class="item-215"><a href="/o-nas-redakce" >O nás</a></li><li class="item-214"><a href="/kontakt-2" >Kontakt</a></li><li class="item-217"><a href="/odkazy-2" >Odkazy</a></li></ul>
+</div></div></div></div></div></section><footer id="sp-footer"><div class="row"><div id="sp-footer1" class="col-lg-6 "><div class="sp-column "><span class="sp-copyright"><a href="https://www.toplist.cz/stat/1810823/" class="navstevnost"><script language="JavaScript" type="text/javascript" charset="utf-8">
+<!--
+document.write('<img src="https://toplist.cz/count.asp?id=1810823&logo=mc&start=4862076&http='+
+encodeURIComponent(document.referrer)+'&t='+encodeURIComponent(document.title)+'&l='+encodeURIComponent(document.URL)+
+'&wi='+encodeURIComponent(window.screen.width)+'&he='+encodeURIComponent(window.screen.height)+'&cd='+
+encodeURIComponent(window.screen.colorDepth)+'" width="88" height="60" border=0 alt="TOPlist" />');
+//--></script><noscript><img src="https://toplist.cz/count.asp?id=1810823&logo=mc&start=4862076&njs=1" border="0"
+alt="TOPlist" width="88" height="60" /></noscript></a>
+
+© 2011 - <span id="year"></span> Soucitne.cz – Váš průvodce veganstvím<br>Provozovatelem portálu je Očima zvířat, z. s. <br>Design & development & <i class="fas fa-heart"></i> by <a href="http://petben.cz" target="_blank" title="Web vytvořil petben.cz">petben.cz</a><br>
+<script>   document.getElementById("year").innerHTML = new Date().getFullYear();
+</script></span></div></div><div id="sp-footer2" class="col-lg-6 "><div class="sp-column "><div class="sp-module "><div class="sp-module-content"><div class=" latestnews">
+
+<a href="/veganstvi/zajimavosti/certifikaty/v-label">
+	<div class="mb-2 mt-2 ml-2 footer-cert float-right v-label" alt="V-Label"></div>
+</a>
+	
+ 
+
+
+
+
+<a href="/veganstvi/zajimavosti/certifikaty/fair-trade">
+	<div class="mb-2 mt-2 ml-2 footer-cert float-right fair-trade" alt="Fair trade"></div>
+</a>
+	
+ 
+
+
+
+
+<a href="/veganstvi/zajimavosti/certifikaty/bio-produkt-ekologickeho-zemedelstvi">
+	<div class="mb-2 mt-2 ml-2 footer-cert float-right bio-produkt-ekologickeho-zemedelstvi" alt="BIO - produkt ekologického zemědělství"></div>
+</a>
+	
+ 
+
+
+
+
+<a href="/veganstvi/zajimavosti/certifikaty/bdih">
+	<div class="mb-2 mt-2 ml-2 footer-cert float-right bdih" alt="BDIH"></div>
+</a>
+	
+ 
+
+
+
+
+<a href="/veganstvi/zajimavosti/certifikaty/cpk-certifikovana-prirodni-kosmetika">
+	<div class="mb-2 mt-2 ml-2 footer-cert float-right cpk-certifikovana-prirodni-kosmetika" alt="CPK – certifikovaná přírodní kosmetika"></div>
+</a>
+	
+ 
+
+
+
+
+<a href="/veganstvi/zajimavosti/certifikaty/hcs-hhps">
+	<div class="mb-2 mt-2 ml-2 footer-cert float-right hcs-hhps" alt="HCS a HHPS"></div>
+</a>
+	
+ 
+
+
+
+
+<a href="/veganstvi/zajimavosti/certifikaty/vegan">
+	<div class="mb-2 mt-2 ml-2 footer-cert float-right vegan" alt="Vegan"></div>
+</a>
+	
+ 
+
+
+
+</div>
+</div></div><div class="sp-module "><div class="sp-module-content">
+
+<div class="custom"  >
+	<p><a href="/zasady-ochrany-osobnich-udaju">Zásady ochrany osobních údajů</a> | <a href="#" data-cc="c-settings">Nastavení cookies</a></p></div>
+</div></div></div></div></div></footer>        </div>
+    </div>
+
+    <!-- Off Canvas Menu -->
+    <div class="offcanvas-overlay"></div>
+    <div class="offcanvas-menu">
+        <a href="#" class="close-offcanvas">
+        <svg style="width: 16px; height: 16px; margin-bottom: -3px; fill: #fff;"><use xlink:href="/templates/pb_soucitne/fonts/icons-2.svg#times"></use></svg>
+        </a>
+        <div class="offcanvas-inner">
+                            <div class="sp-module "><div class="sp-module-content"><ul class="menu">
+<li class="item-104 current active"><a href="/novinky" >Novinky</a></li><li class="item-105 menu-deeper menu-parent"><a href="/recepty" >Recepty<span class="menu-toggler"></span></a><ul class="menu-child"><li class="item-197 menu-deeper menu-parent"><a href="/recepty/pred-jidlem" class="megamenu-title">Před jídlem<span class="menu-toggler"></span></a><ul class="menu-child"><li class="item-123"><a href="/recepty/pred-jidlem/polevky" >Polévky</a></li></ul></li><li class="item-198 menu-deeper menu-parent"><a href="/recepty/po-jidle-ci-k-jidlu" >Po jídle či k jídlu<span class="menu-toggler"></span></a><ul class="menu-child"><li class="item-124"><a href="/recepty/po-jidle-ci-k-jidlu/prilohy" >Přílohy</a></li><li class="item-125"><a href="/recepty/po-jidle-ci-k-jidlu/salaty" >Saláty</a></li></ul></li><li class="item-199 menu-deeper menu-parent"><a href="/recepty/hlavni-jidla" >Hlavní jídla<span class="menu-toggler"></span></a><ul class="menu-child"><li class="item-131"><a href="/recepty/hlavni-jidla/arabska-a-indicka-jidla" >Arabská a indická jídla</a></li><li class="item-132"><a href="/recepty/hlavni-jidla/houbova-jidla" >Houbová jídla</a></li><li class="item-133"><a href="/recepty/hlavni-jidla/italska-jidla-testoviny" >Italská jídla, těstoviny</a></li><li class="item-134"><a href="/recepty/hlavni-jidla/ke-knedlikum" >Ke knedlíkům</a></li><li class="item-135"><a href="/recepty/hlavni-jidla/lusteniny" >Luštěniny</a></li><li class="item-136"><a href="/recepty/hlavni-jidla/mexicka-a-spanelska-jidla" >Mexická a španělská jídla</a></li><li class="item-137"><a href="/recepty/hlavni-jidla/tofu-soja-apod" >Tofu, soja apod.</a></li><li class="item-138"><a href="/recepty/hlavni-jidla/zeleniny" >Zeleniny</a></li></ul></li><li class="item-200 menu-deeper menu-parent"><a href="/recepty/chutovky-a-dobroty" >Chuťovky a dobroty<span class="menu-toggler"></span></a><ul class="menu-child"><li class="item-126"><a href="/recepty/chutovky-a-dobroty/pomazanky" >Pomazánky</a></li><li class="item-127"><a href="/recepty/chutovky-a-dobroty/sladka-jidla" >Sladká jídla</a></li><li class="item-128"><a href="/recepty/chutovky-a-dobroty/cukrovi" >Cukroví</a></li><li class="item-129"><a href="/recepty/chutovky-a-dobroty/vanoce" >Vánoce</a></li><li class="item-130"><a href="/recepty/chutovky-a-dobroty/pochoutky" >Pochoutky</a></li></ul></li></ul></li><li class="item-358"><a href="/veganstvi/zajimavosti/kalendar-akci" >Akce</a></li><li class="item-109"><a href="/vegan-restaurace-mapa" >Restaurace</a></li><li class="item-115"><a href="/prodejny-zdrave-vyzivy-mapa" >Prodejny</a></li><li class="item-116"><a href="/vegan-ubytovani-mapa" >Ubytování</a></li><li class="item-118 menu-deeper menu-parent"><a href="/veganstvi" >Veganství <span class="menu-toggler"></span></a><ul class="menu-child"><li class="item-196 menu-deeper menu-parent"><a href="/veganstvi/temata" >Témata<span class="menu-toggler"></span></a><ul class="menu-child"><li class="item-166"><a href="/veganstvi/temata/ekologie" >Ekologie</a></li><li class="item-194"><a href="/veganstvi/temata/etika" >Etika</a></li><li class="item-162"><a href="/veganstvi/temata/zdravi" >Zdraví</a></li><li class="item-163"><a href="/veganstvi/temata/aktivismus" >Aktivismus</a></li><li class="item-164"><a href="/veganstvi/temata/osobnosti" >Osobnosti</a></li><li class="item-165"><a href="/veganstvi/temata/deti" >Děti</a></li><li class="item-168"><a href="/veganstvi/temata/azyly" >Azyly</a></li><li class="item-269"><a href="/veganstvi/temata/rozhovory" >Rozhovory</a></li></ul></li><li class="item-195 menu-deeper menu-parent"><a href="/veganstvi/zajimavosti" >Zajímavosti<span class="menu-toggler"></span></a><ul class="menu-child"><li class="item-169"><a href="/veganstvi/zajimavosti/kalendar-akci" >Kalendář akcí</a></li><li class="item-170"><a href="/veganstvi/zajimavosti/pridat-udalost" >Přidat událost</a></li><li class="item-171"><a href="/veganstvi/zajimavosti/slavni-vegani-a-vegetariani" >Slavní vegani a vegetariáni</a></li><li class="item-172"><a href="/veganstvi/zajimavosti/citaty" >Citáty</a></li><li class="item-173"><a href="/veganstvi/zajimavosti/videa" >Videa</a></li><li class="item-174"><a href="/veganstvi/zajimavosti/vyznamne-dny" >Významné dny</a></li><li class="item-175"><a href="/veganstvi/zajimavosti/certifikaty" >Certifikáty</a></li></ul></li><li class="item-202 menu-deeper menu-parent"><a href="/veganstvi/prakticke-informace" >Praktické informace<span class="menu-toggler"></span></a><ul class="menu-child"><li class="item-353"><a href="/co-je-veganstvi" >Co je veganství</a></li><li class="item-176"><a href="/veganstvi/prakticke-informace/jak-se-stat-veganem" >Jak se stát veganem? </a></li><li class="item-177"><a href="/veganstvi/prakticke-informace/casto-kladene-otazky-o-veganstvi-faq" >Často kladené otázky o veganství (FAQ)</a></li><li class="item-178"><a href="/veganstvi/prakticke-informace/argumenty-a-odpovedi" >Argumenty a odpovědi</a></li><li class="item-179"><a href="/veganstvi/prakticke-informace/zaklady-veganske-vyzivy" >Základy veganské výživy</a></li><li class="item-180"><a href="/veganstvi/prakticke-informace/ziviny-a-jejich-zdroje" >Živiny a jejich zdroje</a></li><li class="item-181"><a href="/veganstvi/prakticke-informace/10-instituci-schvaluje-veganstvi" >10 institucí schvaluje veganství</a></li><li class="item-182"><a href="/veganstvi/prakticke-informace/vegani-na-cestach" >Vegani na cestách</a></li><li class="item-218"><a href="/veganstvi/prakticke-informace/seznam-ecek-v-potravinach" >Seznam éček v potravinách</a></li><li class="item-327"><a href="/vegan-catering" >Veganské cateringy</a></li></ul></li></ul></li><li class="item-267"><a href="/veganstvi/zajimavosti/kalendar-akci" >Kalendář akcí</a></li><li class="item-201"><a href="https://www.facebook.com/soucitne" title="Facebook" target="_blank" rel="noopener noreferrer">Facebook</a></li></ul>
+</div></div><div class="sp-module "><div class="sp-module-content"><ul class="menu">
+<li class="item-111"><a href="/o-nas" >O nás</a></li><li class="item-359"><a href="/pridej-se" >Přidej se</a></li><li class="item-112"><a href="/odkazy" >Odkazy</a></li><li class="item-113"><a href="/kontakt" >Kontakt</a></li><li class="item-114"><a href="#" class="hledat-btn" rel="noreferrer">Hledat</a></li></ul>
+</div></div><div class="sp-module "><div class="sp-module-content"><div class="search">
+	<form action="/novinky" method="post">
+		<div class="input-group"><input name="searchword" id="mod-search-searchword96" class="form-control" type="search" placeholder="Vyhledávání..."><span class="input-group-btn"><button class="btn btn-primary" onclick="this.form.searchword.focus();">Hledat</button></span></div>		<input type="hidden" name="task" value="search">
+		<input type="hidden" name="option" value="com_search">
+		<input type="hidden" name="Itemid" value="104">
+	</form>
+</div>
+</div></div>
+                    </div>
+    </div>
+
+    <script type="application/ld+json">
+ {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://soucitne.cz",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://soucitne.cz/vyhledavani?searchphrase=all&searchword={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+   "@context": "https://schema.org",
+   "@type": "Organization",
+   "url": "https://soucitne.cz",
+   "logo": "https://soucitne.cz/images/logo-soucitne.png"
+ }
+</script>
+
+    
+
+    <!-- Go to top -->
+            <a href="#" class="sp-scroll-up" aria-label="Scroll Up"><svg style="width: 16px; height: 16px; margin-bottom: -2px; fill: #fff;"><use xlink:href="/templates/pb_soucitne/fonts/icons-2.svg#chevron-up"></use></svg></a>
+        
+    <script type="speculationrules">
+					{
+					"prerender": [{
+						"source": "document",
+						"where": {
+						"and": [
+							{ "href_matches": "/vegan-restaurace-mapa" }							
+						]
+						},
+						"eagerness": "moderate"
+					}]
+					}
+					</script>
+
+
+
+    <div id="pwamaker_pwa_offline_bar">No Internet Connection</div><div id="pwamaker_pwa-loader-overlay"><div id="pwamaker_pwa-loader"><div class="pwamaker-spinner pwamaker-skeleton"></div></div></div></body>
+</html>
+
