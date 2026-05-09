@@ -1,6 +1,8 @@
 # Bioethics Exam Study Guide — PBIO 2026
 
-A detailed study guide for 3rd-year students preparing for the Bioethics test. Built from the professor's summary slides (`PBIO 2026 - souhrn prezentace.pptx.pdf`), Sandel's philosophy chapters, the Chudárková paper on descriptive ethics, the NanoEt and Soucitně articles on animal testing, and the Open Science papers (Ross-Hellauer; LSE Impact on FAIR).
+A detailed study guide for 3rd-year students preparing for the Bioethics test. Built from the professor's summary slides (`PBIO 2026 - souhrn prezentace.pptx.pdf`), Sandel's philosophy chapters (Utilitarianism, Kant, Aristotle), the Chudárková paper on descriptive ethics, the NanoEt and Soucitně articles on animal testing, and the Open Science papers (Ross-Hellauer; LSE Impact on FAIR).
+
+> **Reviewed and corrected** by a bioethics faculty pass: minor factual fixes (Haidt's "emotional dog" metaphor; Mill's harm principle source; Moral Foundations count); the Friedman & Hendry *Value Sensitive Design* book is **off-syllabus** for this exam and listed as optional only.
 
 > Companion files in this folder:
 > - `PRACTICE_TEST_1.md` — mixed multiple-choice + short-answer + essay
@@ -39,7 +41,7 @@ The morally right action is the one that produces **the greatest balance of happ
 
 ### Key Thinkers
 - **Jeremy Bentham** — founder; *An Introduction to the Principles of Morals and Legislation* (1789).
-- **John Stuart Mill** — *Utilitarianism* (1863); refines theory with quality of pleasures and harm principle.
+- **John Stuart Mill** — *Utilitarianism* (1863) refines the theory with the qualitative distinction between higher and lower pleasures; his *harm principle* (the only legitimate ground for coercing an adult is to prevent harm to others) belongs to *On Liberty* (1859) and is often used to *supplement* utilitarianism with a protection of individual liberty.
 
 ### Sandel's Critiques (memorize these — they appear in slides)
 1. **Rights problem:** if torturing an innocent maximizes happiness, utilitarianism seems to permit it. Example Sandel uses: throwing Christians to lions delights the Roman crowd → utility says "do it," intuition says "monstrous."
@@ -153,10 +155,10 @@ Descriptive ethics studies *how people actually make moral judgments* — empiri
 ### Key Concepts
 - **Moral intuitions:** rapid, automatic, often emotional evaluative reactions that *precede* explicit reasoning.
 - **Dual-process model:** System 1 (fast, intuitive, emotional) vs. System 2 (slow, deliberate, reasoned). Most everyday moral judgment is System 1.
-- **Social Intuitionist Model (Jonathan Haidt):** moral judgment first, justification second — reasoning is largely post-hoc rationalization ("the rational tail wags the emotional dog"). Reasoning *does* matter socially: it's how we persuade others.
-- **Moral Foundations Theory (Haidt & Graham):** six recurrent foundations across cultures — Care/Harm, Fairness/Cheating, Loyalty/Betrayal, Authority/Subversion, Sanctity/Degradation, Liberty/Oppression.
-- **Trolley problem & neuroethics (Greene):** *personal* dilemmas (push the man) activate emotional brain regions (vmPFC, amygdala); *impersonal* dilemmas (flip a switch) activate cognitive control regions (DLPFC). This empirically supports a dual-process picture.
-- **Cultural and developmental variation:** Kohlberg (stages of moral development), cross-cultural studies (WEIRD vs. non-WEIRD).
+- **Social Intuitionist Model (Jonathan Haidt):** moral judgment first, justification second — reasoning is largely *post-hoc* rationalization. Haidt's metaphor: *"the emotional dog and its rational tail"* — the dog (intuition) wags the tail (reasoning), not the other way round. Reasoning still matters **socially**: it is how we persuade others and how groups revise norms over time.
+- **Moral Foundations Theory (Haidt, Graham, Joseph):** originally **five** recurrent foundations across cultures — Care/Harm, Fairness/Cheating, Loyalty/Betrayal, Authority/Subversion, Sanctity/Degradation — with **Liberty/Oppression** later proposed as a candidate sixth foundation.
+- **Trolley problem & neuroethics (Joshua Greene):** *personal* ("up-close") dilemmas — e.g., pushing the large man off a footbridge — recruit emotional/affective brain regions (vmPFC, amygdala) and tend to elicit characteristically *deontological* judgments; *impersonal* dilemmas — e.g., flipping a switch — recruit cognitive-control regions (DLPFC) and tend to elicit *utilitarian* judgments. Greene reads this as empirical support for a **dual-process** picture of moral cognition.
+- **Cultural and developmental variation:** Kohlberg's stages of moral development; Carol Gilligan's *ethic of care* critique; cross-cultural studies showing that much psychological data comes from **WEIRD** populations (Western, Educated, Industrialized, Rich, Democratic) and may not generalize.
 - **Naturalistic fallacy / is–ought gap:** descriptive findings *cannot by themselves* settle normative questions, but they constrain plausible normative theories.
 
 ### Why descriptive ethics matters for bioethics
@@ -332,7 +334,7 @@ Open Science's open infrastructures can paradoxically **amplify inequalities** (
 | `Expertní systém NanoEt - Principy 3R.html` | 3R principles (operational detail) | High |
 | `Dynamics of cumulative advantage… open science.pdf` (Ross-Hellauer) | Equity in Open Science | Medium |
 | `It's time to extend the FAIR Principles - LSE Impact.html` | FAIR + extensions | Medium |
-| `Batya Friedman - Value Sensitive Design.pdf` | Background on values in tech design | Optional |
+| `Batya Friedman - Value Sensitive Design.pdf` | Background reading on embedding values in technology design — **not on the tested syllabus**; skip unless time permits | Optional / off-syllabus |
 
 ---
 

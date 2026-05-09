@@ -2,6 +2,8 @@
 
 Materials organized by topic. Start with `01_Study_Guide/README.md`, then practice with `02_Practice_Tests/`.
 
+> **Faculty review:** see `FACULTY_REVIEW.md` (project root) for a PhD-level review of these materials, the corrections applied, and a verdict on the practice tests.
+
 ## Folder map
 
 | Folder | Contents | Use for |
